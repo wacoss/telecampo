@@ -26,7 +26,7 @@
             //'Telefe': 'canales/telefenoticias.html',  
             //'Radio Bio Bio': 'canales/radiobiobio.html',   
             //'Latina Perú': 'canales/latina.html',  
-            'Caracol Colombia': 'canales/caracol.html',  
+            'Caracol': 'canales/caracol.html',  
             'CGTN': 'canales/cgtn.html',  
             '90 Hits': 'canales/90hits.html',   
             'Bob esponja': 'canales/bobesponja.html', 
