@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html lang="es-CL">
-
 <head>
- 
-    <!-- Metadatos -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Título y enlace canónico -->
     <title>lorem</title>
-    
-   
     <style>
         body {
             margin: 0;
@@ -22,77 +13,40 @@
             overflow: hidden;
         }
 
-        iframe {
+        #player {
             width: 100%;
             height: 100dvh;
             border: none;
         }
     </style>
-   
 </head>
-
 <body>
-    <!-- 
-    <div id="overlay"></div> -->
+    <div id="player" role="application" aria-label="Reproductor de YouTube"></div>
 
-
-
-    <!-- Reproductor de YouTube (vacío inicialmente, será poblado por la API de YouTube) -->
-    <iframe>
-    <div id="player" role="application" aria-label="Reproductor de YouTube"></div> 
-    </iframe>
-    
-
-    <!-- Scripts para funcionalidad -->
-
-
-    <!-- Script para cargar la API de YouTube -->
     <script>
-        // Cargar API de YouTube
+        // Carga la API de IFrame de YouTube de forma asincrónica
         var tag = document.createElement('script');
         tag.src = "https://www.youtube.com/iframe_api";
-        tag.async = true;
         var firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+        // Crea un reproductor de YouTube una vez que se cargue la API
         var player;
-
-        // Función que se ejecuta cuando la API de YouTube está lista
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('player', {
+                videoId: 'R_V7FhsCPwM',
                 playerVars: {
-                    'listType': 'playlist',
-                    'list': 'UUaVaCaiG6qRzDiJDuEGKOhQ',
-                    'autoplay': 1,
-                    'mute': 0,
-                    //'enablejsapi': 1,
-                   // 'rel': 0,
-                    'controls': 0,
-                   // 'fs': 1,
-                   // 'cc_load_policy': 0,
+                    autoplay: 1,
+                    rel: 0,
+                    controls: 1
                 },
                 events: {
-                    'onReady': onPlayerReady,
-                    'onError': onPlayerError
+                    'onReady': function (event) {
+                        event.target.playVideo();
+                    }
                 }
             });
         }
-
-        // Función cuando el reproductor está listo
-        function onPlayerReady(event) {
-            player.setShuffle(false);
-            player.playVideoAt(0);
-            setTimeout(() => {
-                document.getElementById('player').style.display = 'block';
-            }, 500);
-        }
-
-        // Función para manejar errores del reproductor
-        function onPlayerError(event) {
-            console.log('Error al cargar el reproductor:', event);
-        }
     </script>
-
 </body>
-
 </html>
