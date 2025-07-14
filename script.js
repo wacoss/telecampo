@@ -17,6 +17,8 @@
             //'Mega Noticias': 'canales/meganoticias.html',
             'CHV Noticias': 'canales/chvnoticias.html',
             'TVU': 'canales/tvu.html',
+            'Tevex': 'canales/tevex.html',
+            'Zona Latina': 'canales/zonalatina.html',  
             //'UCV': 'canales/ucv.html',  
             'RTVE': 'canales/rtve.html',  
             'DW': 'canales/dw.html',   
