@@ -14,7 +14,7 @@
             'CHV': 'canales/chv.html',   
             'TeleTrece': 'canales/teletrece.html',
             '24 Horas': 'canales/24horas.html',    
-            //'Mega Noticias': 'canales/meganoticias.html',
+            'Mega Noticias': 'canales/meganoticias.html',
             'CHV Noticias': 'canales/chvnoticias.html',
             'TVU': 'canales/tvu.html',
             'Tevex': 'canales/tevex.html',
