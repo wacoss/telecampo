@@ -8,7 +8,7 @@
             // Lista de canales
             const channels = {
                   
-            'Inicio': '/flipflapclock.html',  // si lo quitas el primer canal se reproducirá pausado,
+            'Inicio': 'flipflapclock.html',  // si lo quitas el primer canal se reproducirá pausado,
             'TVN': 'canales/tvn.html', 
             //'CHV 1': 'canales/chilevision.html',   
             'CHV': 'canales/chv.html',   
