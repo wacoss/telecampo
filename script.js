@@ -34,7 +34,25 @@
             'America Notic': 'canales/americanoticias.html',   
             'Azteca Notic': 'canales/aztecanoticias.html',    
             'C5N': 'canales/c5n.html',   
-         
+            'Canal 26': 'canales/canal26.html',   
+            'Canal Sur': 'canales/canalsur.html', 
+            'City TV': 'canales/citytv.html',     
+            'DW': 'canales/dw.html',   
+            'El Doce': 'canales/eldoce.html',   
+            'Milenio': 'canales/milenio.html',    
+            'N+': 'canales/nmas.html',    
+            'Telemundo Notic': 'canales/noticiastelemundo.html',     
+            'Noticias Uno': 'canales/noticiasuno.html',   
+            'NTN 24': 'canales/ntn24.html',   
+            'Panorama': 'canales/panorama.html',   
+            'TC': 'canales/tc.html',   
+            'Telediario': 'canales/telediariomx.html',    
+            'Telefe Notic': 'canales/telefenoticias.html',   
+            'Telesur': 'canales/telesur.html',   
+            'Todo Noticias': 'canales/todonoticias.html',   
+            'Univisión Notic': 'canales/univisionnoticias.html', 
+            'Zapping Ecuad': 'canales/zappingecuador.html',     
+              
             };
 
             // Función para mostrar los canales
