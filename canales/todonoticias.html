@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lorem</title>
+     <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Gabarito', sans-serif;
+            background-color: #000;
+            color: #999;
+            height: 100dvh;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100dvh;
+            border: none;
+        }
+    </style>
+
+</head>
+<body>
+
+                    <iframe 
+                        id="youtubeEmbed"
+                        src=""
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        title="YouTube Live Stream">
+                    </iframe>
+   
+    <script>
+    class YouTubeLiveEmbed {
+  constructor() {
+    this.channelId = "UCj6PcyLvpnIRT_2W_mwa9Aw"
+    this.autoRefreshInterval = null
+    this.init()
+  }
+
+  init() {
+    this.loadEmbed()
+    this.startAutoRefresh()
+    console.log("YouTube Live Embed iniciado para canal:", this.channelId)
+  }
+
+  buildEmbedUrl() {
+    // Configuración fija: autoplay activado, sin mute
+    const baseUrl = `https://www.youtube.com/embed/live_stream`
+    const params = new URLSearchParams({
+      channel: this.channelId,
+      autoplay: "1",
+      mute: "0",
+      modestbranding: "1",
+      rel: "0",
+      iv_load_policy: "3",
+    })
+
+    return `${baseUrl}?${params.toString()}`
+  }
+
+  loadEmbed() {
+    const iframe = document.getElementById("youtubeEmbed")
+    const embedUrl = this.buildEmbedUrl()
+
+    // Agregar timestamp para forzar recarga
+    const urlWithTimestamp = `${embedUrl}&t=${Date.now()}`
+    iframe.src = urlWithTimestamp
+
+    console.log("Embed cargado:", embedUrl)
+  }
+
+  refreshEmbed() {
+    console.log("Actualizando embed...")
+    this.loadEmbed()
+    console.log("Embed actualizado")
+  }
+
+  startAutoRefresh() {
+    this.stopAutoRefresh()
+
+    this.autoRefreshInterval = setInterval(
+      () => {
+        console.log("Auto-refresh ejecutándose...")
+        this.refreshEmbed()
+      },
+      5 * 60 * 1000,
+    ) // 5 minutos
+
+    console.log("Auto-refresh programado cada 5 minutos")
+  }
+
+  stopAutoRefresh() {
+    if (this.autoRefreshInterval) {
+      clearInterval(this.autoRefreshInterval)
+      this.autoRefreshInterval = null
+      console.log("Auto-refresh detenido")
+    }
+  }
+}
+
+// Inicializar cuando se carga la página
+document.addEventListener("DOMContentLoaded", () => {
+  window.youtubeLiveEmbed = new YouTubeLiveEmbed()
+})
+
+// Limpiar intervalos cuando se cierra la página
+window.addEventListener("beforeunload", () => {
+  if (window.youtubeLiveEmbed) {
+    window.youtubeLiveEmbed.stopAutoRefresh()
+  }
+})
+
+// Manejar visibilidad de la página para pausar/reanudar auto-refresh
+document.addEventListener("visibilitychange", () => {
+  if (window.youtubeLiveEmbed) {
+    if (document.hidden) {
+      console.log("Página oculta - pausando auto-refresh")
+      window.youtubeLiveEmbed.stopAutoRefresh()
+    } else {
+      console.log("Página visible - reanudando auto-refresh")
+      window.youtubeLiveEmbed.startAutoRefresh()
+    }
+  }
+})
+
+    </script>
+</body>
+</html>
