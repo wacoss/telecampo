@@ -49,7 +49,7 @@
             'Telediario': 'canales/telediariomx.html',    
             'Telefe Notic': 'canales/telefenoticias.html',   
             'Telesur': 'canales/telesur.html',   
-            'Todo Noticias': 'canales/todonoticias.html',   
+            'TN': 'canales/todonoticias.html',   
             'Univisión Notic': 'canales/univisionnoticias.html', 
             'Zapping Ecuad': 'canales/zappingecuador.html',     
               
