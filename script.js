@@ -9,8 +9,7 @@
             const channels = {
                   
             'Inicio': 'flipflapclock.html',  // si lo quitas el primer canal se reproducirá pausado,
-            'TVN': 'canales/tvn.html', 
-            //'CHV 1': 'canales/chilevision.html',   
+            'TVN': 'canales/tvn.html',  
             'CHV': 'canales/chv.html',   
             'TeleTrece': 'canales/teletrece.html',
             '24 Horas': 'canales/24horas.html',    
@@ -25,7 +24,7 @@
             'France 24': 'canales/france24.html', 
             'A24': 'canales/a24.html', 
             'Caracol': 'canales/caracol.html',  
-            'CGTN': 'canales/cgtn.html',  
+            'CGTN*': 'canales/cgtn.html',  
             '90 Hits': 'canales/90hits.html',   
             'Bob esponja': 'canales/bobesponja.html', 
             'Mr.Bean': 'canales/mrbean.html',  
