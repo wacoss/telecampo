@@ -26,7 +26,7 @@
             'Caracol': 'canales/caracol.html',  
             'CGTN*': 'canales/cgtn.html',  
             '90 Hits': 'canales/90hits.html',   
-            'Bob esponja': 'canales/bobesponja.html', 
+            'Bob esponja*': 'canales/bobesponja.html', 
             'Mr.Bean': 'canales/mrbean.html',  
 
             'America Notic*': 'canales/americanoticias.html',   
