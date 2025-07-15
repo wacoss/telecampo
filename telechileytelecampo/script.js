@@ -15,7 +15,7 @@
             '13': 'miplayer.html?file=https://unlimited1-cl-isp.dps.live/t13radio/t13radio.smil/playlist.m3u8', 
             'CHV': 'canales/chv.html',    
             'Canal 9': 'miplayer.html?file=https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8',   
-            'TVU==': 'canales/tvu.html', 
+            'TVU**': 'canales/tvu.html', 
             'UCV': 'miplayer.html?file=https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/ucvtv2/livestream2/chunks.m3u8',   
 
               
