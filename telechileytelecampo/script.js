@@ -9,7 +9,7 @@
             const channels = {
                   
             'Inicio': 'flipflapclock.html',  // si lo quitas el primer canal se reproducirá pausado,
-            'TVN': 'canales/tvn.html',  
+            'TVN': 'miplayer.html?file=https://mdstrm.com/live-stream-playlist-v/5346f5f2c1e6f5810b5b9df0.m3u8',  
             'CHV': 'canales/chv.html',   
             'TeleTrece': 'canales/teletrece.html',
             '24 Horas': 'canales/24horas.html',    
