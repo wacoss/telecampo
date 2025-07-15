@@ -18,9 +18,7 @@
             'TVU**': 'canales/tvu.html', 
             'UCV': 'miplayer.html?file=https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/ucvtv2/livestream2/chunks.m3u8',   
 
-              
-
-            'CHV': 'canales/chv.html',   
+ 
             'TeleTrece': 'canales/teletrece.html',
             '24 Horas': 'canales/24horas.html',    
             'Mega Noticias': 'canales/meganoticias.html',
