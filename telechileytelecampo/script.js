@@ -39,7 +39,7 @@
             '90 Hits': 'canales/90hits.html',  
             'Pauta TV': 'miplayer.html?file=https://jireh-1-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/pautatv/livestream3/chunks.m3u8',      
 
-            ' - - - - - -': '  ', 
+            ' - - - - - -': 'nada.html', 
             'A24': 'canales/a24.html', 
             'Caracol': 'canales/caracol.html',
            // 'America Notic*': 'canales/americanoticias.html',   
