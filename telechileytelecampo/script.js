@@ -23,7 +23,7 @@
             'Teletrece': 'canales/teletrece.html',   
             '24 Horas': 'canales/24horas.html',   
             'Meganoticias': 'canales/meganoticias.html',   
-            'CHV Noticias==': 'canales/chvnoticias.html',
+            'CHV Noticias': 'canales/chvnoticias.html',
             'DW': 'canales/dw.html',
             'RTVE': 'canales/rtve.html',  
             //'Euronews': 'https://www.youtube.com/embed/live_stream?channel=UCyoGb3SMlTlB8CLGVH4c8Rw&autoplay=1&mute=0',
