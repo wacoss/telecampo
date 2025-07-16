@@ -29,7 +29,7 @@
             'RTVE': 'canales/rtve.html',  
             //'Euronews': 'https://www.youtube.com/embed/live_stream?channel=UCyoGb3SMlTlB8CLGVH4c8Rw&autoplay=1&mute=0',
             'Euronews': 'canales/euronews.html',  
-            'France 24--': 'canales/france24.html',  
+            'France 24': 'canales/france24.html',  
             'CBS News': 'miplayer.html?file=https://dai.google.com/linear/hls/event/EezGs5EpSjSr-sYjB2qysw/master.m3u8',
             'ABC News': 'miplayer.html?file=https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8', 
             '13C': 'miplayer.html?file=https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8',  
