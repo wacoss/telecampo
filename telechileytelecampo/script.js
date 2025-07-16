@@ -25,6 +25,7 @@
             'Meganoticias': 'canales/meganoticias.html',   
             'CHV Noticias': 'canales/chvnoticias.html',
             'DW': 'canales/dw.html',
+            'TVE': 'miplayer.html?file=https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_dvr_576.m3u8',    
             'RTVE': 'canales/rtve.html',  
             //'Euronews': 'https://www.youtube.com/embed/live_stream?channel=UCyoGb3SMlTlB8CLGVH4c8Rw&autoplay=1&mute=0',
             'Euronews': 'canales/euronews.html',  
@@ -32,9 +33,11 @@
             'CBS News': 'miplayer.html?file=https://dai.google.com/linear/hls/event/EezGs5EpSjSr-sYjB2qysw/master.m3u8',
             'ABC News': 'miplayer.html?file=https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8', 
             '13C': 'miplayer.html?file=https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8',  
+            'NTV': 'miplayer.html?file=https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8',  
             '13 pop': 'miplayer.html?file=https://origin.dpsgo.com/ssai/event/WKlE4m31TOijQS05TZmhqw/master.m3u8',  
             'TVN3': 'miplayer.html?file=https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8',
-            '90 Hits': 'canales/90hits.html',    
+            '90 Hits': 'canales/90hits.html',  
+            'Pauta TV': 'miplayer.html?file=https://jireh-1-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/pautatv/livestream3/chunks.m3u8',      
 
             // hola
             'A24': 'canales/a24.html', 
