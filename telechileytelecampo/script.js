@@ -41,9 +41,9 @@
 
             ' - - - - - -': 'nada.html', 
             'A24': 'canales/a24.html', 
-            'Caracol': 'canales/caracol.html',
            // 'America Notic*': 'canales/americanoticias.html',   
             'Azteca Notic': 'canales/aztecanoticias.html',    
+            'Caracol': 'canales/caracol.html',
             'C5N': 'canales/c5n.html',   
             // 'Canal 26*': 'canales/canal26.html',   
             'Canal Sur': 'canales/canalsur.html', 
