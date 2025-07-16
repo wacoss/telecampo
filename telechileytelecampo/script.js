@@ -38,7 +38,7 @@
 
             // hola
             'A24': 'canales/a24.html', 
-            'Caracol--': 'canales/caracol.html',
+            'Caracol': 'canales/caracol.html',
             'America Notic*': 'canales/americanoticias.html',   
             'Azteca Notic': 'canales/aztecanoticias.html',    
             'C5N': 'canales/c5n.html',   
