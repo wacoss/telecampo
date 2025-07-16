@@ -34,10 +34,10 @@
             '13C': 'miplayer.html?file=https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8',  
             '13 pop': 'miplayer.html?file=https://origin.dpsgo.com/ssai/event/WKlE4m31TOijQS05TZmhqw/master.m3u8',  
             'TVN3': 'miplayer.html?file=https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8',
-            '90 Hits--': 'canales/90hits.html',    
+            '90 Hits': 'canales/90hits.html',    
 
             // hola
-            'A24--': 'canales/a24.html', 
+            'A24': 'canales/a24.html', 
             'Caracol--': 'canales/caracol.html',
             'America Notic*': 'canales/americanoticias.html',   
             'Azteca Notic': 'canales/aztecanoticias.html',    
