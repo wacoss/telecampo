@@ -40,7 +40,7 @@
             'Pauta TV': 'miplayer.html?file=https://jireh-1-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/pautatv/livestream3/chunks.m3u8',      
   
               
-            ' * * * * * * *': 'flipflapclock.html', 
+            ' * * * * * * * * * * *': 'flipflapclock.html', 
             'A24': 'canales/a24.html', 
            // 'America Notic*': 'canales/americanoticias.html',   
             'Azteca Notic': 'canales/aztecanoticias.html',    
@@ -63,8 +63,7 @@
             'TN': 'canales/tn.html',   
            // 'Univisión Notic*': 'canales/univisionnoticias.html', 
            // 'Zapping Ecuad*': 'canales/zappingecuador.html',       
-
-' * * * * * * *': 'flipflapclock.html', 
+' * * * * * * * * * * *': 'flipflapclock.html',               
 'Azteca Inter': 'miplayer.html?file=https://dujft6o2exhah.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0lvc4h1b07aou/mun.m3u8',
 'Bein Sports Xtr': 'miplayer.html?file=https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8',
 'Bein Sports Xtr n': 'miplayer.html?file=https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8',
