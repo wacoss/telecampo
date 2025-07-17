@@ -70,7 +70,7 @@
 'Billiard TV': 'miplayer.html?file=https://9769bd6405b245ea9adca1889a0b491b.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-in_BilliardTV/playlist.m3u8',
 'Bloopers': 'miplayer.html?file=https://30a-tv.com/feeds/720p/63.m3u8',
 'BUM TV': 'miplayer.html?file=https://movil.ejeserver.com/live/visiondorada.m3u8',
-'Buin Somos': 'miplayer.html?file=https://bst.buin.cl/0.m3u8',
+'Buin Somos T': 'miplayer.html?file=https://bst.buin.cl/0.m3u8',
 'Coco TV': 'miplayer.html?file=https://cloudflare.streamgato.us:3253/live/canalcocotvlive.m3u8',
 'El Trece Arg': 'miplayer.html?file=https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8',
 'Garage TV': 'miplayer.html?file=https://stream1.sersat.com/hls/garagetv.m3u8',
