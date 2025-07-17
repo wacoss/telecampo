@@ -63,7 +63,31 @@
             'TN': 'canales/tn.html',   
            // 'Univisión Notic*': 'canales/univisionnoticias.html', 
            // 'Zapping Ecuad*': 'canales/zappingecuador.html',       
-              
+
+' - - - - - -': 'nada', 
+'Azteca Inter': 'miplayer.html?file=https://dujft6o2exhah.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0lvc4h1b07aou/mun.m3u8',
+'Bein Sports Xtr': 'miplayer.html?file=https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8',
+'Bein Sports Xtr n': 'miplayer.html?file=https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8',
+'Billiard TV': 'miplayer.html?file=https://9769bd6405b245ea9adca1889a0b491b.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/Samsung-in_BilliardTV/playlist.m3u8',
+'Bloopers': 'miplayer.html?file=https://30a-tv.com/feeds/720p/63.m3u8',
+'BUM TV': 'miplayer.html?file=https://movil.ejeserver.com/live/visiondorada.m3u8',
+'Buin Somos': 'miplayer.html?file=https://bst.buin.cl/0.m3u8',
+'Coco TV': 'miplayer.html?file=https://cloudflare.streamgato.us:3253/live/canalcocotvlive.m3u8',
+'El Trece Arg': 'miplayer.html?file=https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8',
+'Garage TV': 'miplayer.html?file=https://stream1.sersat.com/hls/garagetv.m3u8',
+'Global fashion': 'miplayer.html?file=https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8',
+'Homeful': 'miplayer.html?file=https://aegis-cloudfront-1.tubi.video/36785f5f-4e63-4cca-a16a-c8b309af0287/playlist.m3u8',
+'Infinita': 'miplayer.html?file=https://mdstrm.com/live-stream-playlist/63a066e54ed536087960b550.m3u8',
+'Latina': 'miplayer.html?file=https://jireh-10-hls-video-cl-movistar.dps.live/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/latina/livestream2/chunks.m3u8',
+'Motorvision': 'miplayer.html?file=https://stream.ads.ottera.tv/playlist.m3u8?network_id=535',
+'Outdoor': 'miplayer.html?file=https://amg00718-outdoorchannela-outdoortvnz-samsungnz-lylq4.amagi.tv/playlist/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8',
+'Property Broth': 'miplayer.html?file=https://apollo.production-public.tubi.io/live/ac-property-brothers.m3u8',
+'Qwest Music': 'miplayer.html?file=https://amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv/playlist/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8',
+'Red Bull': 'miplayer.html?file=https://linear-582.frequency.stream/mt/studio/582/hls/master/playlist.m3u8',
+'Taste Made': 'miplayer.html?file=https://amg00047-tastemade-es16intl-canelatv-9t8xw.amagi.tv/playlist/amg00047-tastemade-es16intl-canelatv/playlist.m3u8',
+'Telemundo': 'miplayer.html?file=https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8',
+'Wipeout': 'miplayer.html?file=https://apollo.production-public.tubi.io/live/ac-wipeout-xtra.m3u8',
+  
             };
 
             // Función para mostrar los canales
