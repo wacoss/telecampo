@@ -46,6 +46,7 @@
             'Azteca Notic': 'canales/aztecanoticias.html',    
             'Caracol': 'canales/caracol.html',
             'C5N': 'canales/c5n.html',   
+            'CNN Chile': 'canales/cnnchile.html'  
             // 'Canal 26*': 'canales/canal26.html',   
             'Canal Sur': 'canales/canalsur.html', 
             'City TV': 'canales/citytv.html',       
