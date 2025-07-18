@@ -31,6 +31,135 @@
       
     </div>
     
-  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+            const sidebar = document.getElementById('sidebar');
+            const channelList = document.getElementById('channelList');
+            const iframe = document.getElementById('iframe');
+            const toggleSidebar = document.getElementById('toggleSidebar');
+            let activeIndex = 0;
+
+            // Lista de canales
+            const channels = {
+                  
+            'Inicio': 'flipflapclock.html',  // si lo quitas el primer canal se reproducirá pausado,
+
+{
+  'Warner Channel HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a00f'
+  'Via X': 'miplayer.html?file=http://45.181.122.46:8090/play/a00s'
+  'ESPN 2 HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a01v',
+  'ESPN 3 HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a01t',
+  'ESPN 5HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a01i',
+  'ESPN Premium HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a015',
+  'ESPN 2 HD (alt)': 'miplayer.html?file=http://191.52.214.5:8000/play/a027/index.m3u8',
+  'ESPN 3 HD (alt)': 'miplayer.html?file=http://191.52.214.5:8000/play/a025/index.m3u8',
+  'ESPN HD': 'miplayer.html?file=http://191.52.214.5:8000/play/a02s/index.m3u8',
+  'TNT Sports Premiun HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a00i',
+  'A&E HD': 'miplayer.html?file=http://191.52.214.5:8000/play/a08v/index.m3u8',
+  'AMC HD': 'miplayer.html?file=http://191.52.214.5:8000/play/a08w/index.m3u8',
+  'ATRES SERIES HD': 'miplayer.html?file=http://191.52.214.5:8000/play/a08i/index.m3u8',
+  'ATRES SERIES HD2': 'miplayer.html?file=http://45.181.122.46:8090/play/a01k',
+  'AXN HD': 'miplayer.html?file=http://191.52.214.5:8000/play/a08p/index.m3u8',
+  'Animal Planet HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a02f',
+  'Cartoon Network HD - 1610': 'miplayer.html?file=http://191.52.214.5:8000/play/a08u/index.m3u8',
+  'Comedy Central': 'miplayer.html?file=http://191.52.214.5:8000/play/a08d/index.m3u8',
+  'Discovery H&H HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a01f',
+  'Discovery HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a014',
+  'Discovery Theater HD-IK1609-OK': 'miplayer.html?file=http://191.52.214.5:8000/play/a02j/index.m3u8',
+  'Disney HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a01q',
+  'El Gourmet HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a021',
+  'Taste Made': 'miplayer.html?file=https://amg00047-tastemade-es16intl-canelatv-9t8xw.amagi.tv/playlist/amg00047-tastemade-es16intl-canelatv/playlist.m3u8',
+  'Food Network HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a01c',
+  'Golden HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a019',
+  'HBO XTREME HD': 'miplayer.html?file=http://191.52.214.5:8000/play/a08g/index.m3u8',
+  'History Channel HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a00c',
+  'History Channel HD (alt)': 'miplayer.html?file=http://191.52.214.5:8000/play/a08s/index.m3u8',
+  'ID HD': 'miplayer.html?file=http://191.52.214.5:8000/play/a08t/index.m3u8',
+  'Las Estrellas': 'miplayer.html?file=http://191.52.214.5:8000/play/a08c/index.m3u8',
+  'Nat Geo HD': 'miplayer.html?file=http://191.52.214.5:8000/play/a08o/index.m3u8',
+  'Space HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a00h',
+  'Studio Universal HD': 'miplayer.html?file=http://191.52.214.5:8000/play/a08h/index.m3u8',
+  'TNT HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a01s',
+  'TNT HD (alt)': 'miplayer.html?file=http://191.52.214.5:8000/play/a024/index.m3u8',
+  'TNT Series HD': 'miplayer.html?file=http://45.181.122.46:8090/play/a01k',
+  'ETC TV': 'miplayer.html?file=http://45.181.122.46:8090/play/a00t',
+  'Cartoon Network HD - 1610': 'miplayer.html?file=http://191.52.214.5:8000/play/a08u/index.m3u8',
+                
+
+            };
+
+            // Función para mostrar los canales
+            function displayChannels() {
+                let index = 0;
+                for (const [channelName, channelUrl] of Object.entries(channels)) {
+                    const li = document.createElement('li');
+                    const a = document.createElement('a');
+                    a.textContent = channelName;
+                    a.href = channelUrl;
+                    
+                    // Usar una IIFE para capturar el índice actual
+                    (function(currentIndex) {
+                        a.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            selectChannel(currentIndex);
+                            iframe.src = channelUrl;
+                        });
+                    })(index);
+                    
+                    li.appendChild(a);
+                    channelList.appendChild(li);
+                    index++;
+                }
+
+                // Seleccionar el primer canal por defecto
+                selectChannel(0);
+            }
+
+            // Función para seleccionar un canal
+            function selectChannel(index) {
+                const items = channelList.children;
+                if (index >= 0 && index < items.length) {
+                    Array.from(items).forEach((item, i) => {
+                        item.classList.toggle('active', i === index);
+                        if (i === index) {
+                            // Obtener el enlace del canal y establecerlo como src del iframe
+                            const channelLink = item.querySelector('a').href;
+                            iframe.src = channelLink;
+                            // Hacer scroll para que el elemento seleccionado sea visible
+                            item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        }
+                    });
+                    activeIndex = index;
+                }
+            }
+
+            // Función para mostrar/ocultar el sidebar
+            function toggleSidebarVisibility() {
+                sidebar.classList.toggle('hidden');
+            }
+
+            // Event listener para las teclas de flecha
+            document.addEventListener('keydown', function(e) {
+                switch(e.key) {
+                    case 'ArrowUp':
+                        selectChannel(activeIndex - 1);
+                        break;
+                    case 'ArrowDown':
+                        selectChannel(activeIndex + 1);
+                        break;
+                    case 'ArrowLeft':
+                    case 'ArrowRight':
+                        toggleSidebarVisibility();
+                        break;
+                }
+            });
+
+            // Event listener para el botón de toggle
+            toggleSidebar.addEventListener('click', toggleSidebarVisibility);
+
+            // Iniciar la carga de canales
+            displayChannels();
+        });    
+  </script>
 </body>
 </html>
