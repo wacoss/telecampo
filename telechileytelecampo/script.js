@@ -66,7 +66,7 @@
             'NTN 24': 'canales/ntn24.html',   
            // 'Panorama*': 'canales/panorama.html',   
            // 'TC': 'canales/tc.html',   
-            'Telediario': 'canales/telediariomx.html',    
+            'Canal 6': 'canales/canal6.html',    
             //'Telemundo Notic': 'canales/noticiastelemundo.html',    
             'Telefe Notic': 'canales/telefenoticias.html',   
             'Telesur': 'canales/telesur.html',   
