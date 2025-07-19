@@ -44,6 +44,8 @@
             'Comedy Central': 'miplayer.html?file=http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ffcc21a432945000762d06b/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus',
             'ESPN 2': 'miplayer.html?file=http://clubtv.link/juli6/phpcode/lista0.php?c=79&token=TecnoplusJunio03&f=.m3u8',
             'Warner': 'miplayer.html?file=http://clubtv.link/juli6/phpcode/lista0.php?c=2&token=TecnoplusJunio03&f=.m3u8',
+            'Sony': 'miplayer.html?file=http://190.216.158.199:8000/play/a00k/index.m3u8',
+
          
             ' * * * * * * * * * * *': 'flipflapclock.html', 
             'A24': 'canales/a24.html', 
