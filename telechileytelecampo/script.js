@@ -36,9 +36,15 @@
             'NTV': 'canales/ntv.html',  
             '13 pop': 'miplayer.html?file=https://origin.dpsgo.com/ssai/event/WKlE4m31TOijQS05TZmhqw/master.m3u8',  
             'TVN 3': 'miplayer.html?file=https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8',
+            'CGTN': 'miplayer.html?file=https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8', 
+
+              
             '90 Hits': 'canales/90hits.html',    
             'Pauta TV': 'miplayer.html?file=https://jireh-1-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/pautatv/livestream3/chunks.m3u8',      
             'Hola Play': 'miplayer.html?file=https://jmp2.uk/sam-ES26000025M.m3u8',
+            'MTV Origin': 'miplayer.html?file=https://jmp2.uk/sam-ESAJ380000226.m3u8',
+
+
               
             ' * * * * * * * * * * *': 'flipflapclock.html', 
             'A24': 'canales/a24.html', 
