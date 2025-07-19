@@ -45,6 +45,8 @@
             'ESPN 2': 'miplayer.html?file=http://clubtv.link/juli6/phpcode/lista0.php?c=79&token=TecnoplusJunio03&f=.m3u8',
             'Warner': 'miplayer.html?file=http://clubtv.link/juli6/phpcode/lista0.php?c=2&token=TecnoplusJunio03&f=.m3u8',
             'Sony': 'miplayer.html?file=http://190.216.158.199:8000/play/a00k/index.m3u8',
+            'Studio Universal': 'miplayer.html?file=http://190.216.158.199:8000/play/a02m/index.m3u8',
+  
 
          
             ' * * * * * * * * * * *': 'flipflapclock.html', 
