@@ -42,7 +42,9 @@
             'Hola Play': 'miplayer.html?file=https://jmp2.uk/sam-ES26000025M.m3u8',
             'MTV Origin': 'miplayer.html?file=https://jmp2.uk/sam-ESAJ380000226.m3u8',
             'Comedy Central': 'miplayer.html?file=http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ffcc21a432945000762d06b/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus',
-
+            'ESPN 2': 'miplayer.html?file=http://clubtv.link/juli6/phpcode/lista0.php?c=79&token=TecnoplusJunio03&f=.m3u8',
+            'Warner': 'miplayer.html?file=http://clubtv.link/juli6/phpcode/lista0.php?c=2&token=TecnoplusJunio03&f=.m3u8',
+         
             ' * * * * * * * * * * *': 'flipflapclock.html', 
             'A24': 'canales/a24.html', 
            // 'America Notic*': 'canales/americanoticias.html',   
