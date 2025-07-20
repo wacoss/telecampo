@@ -36,16 +36,14 @@
                     </iframe>
    
     <script>
-    class YouTubeLiveEmbed {
+ class YouTubeLiveEmbed {
   constructor() {
     this.channelId = "UCUP6qv-_EIL0hwTsJaKYnvw"
-    this.autoRefreshInterval = null
     this.init()
   }
 
   init() {
     this.loadEmbed()
-    this.startAutoRefresh()
     console.log("YouTube Live Embed iniciado para canal:", this.channelId)
   }
 
@@ -68,39 +66,10 @@
     const iframe = document.getElementById("youtubeEmbed")
     const embedUrl = this.buildEmbedUrl()
 
-    // Agregar timestamp para forzar recarga
-    const urlWithTimestamp = `${embedUrl}&t=${Date.now()}`
-    iframe.src = urlWithTimestamp
+    // No se agrega timestamp, ya que no se requiere forzar recarga
+    iframe.src = embedUrl
 
     console.log("Embed cargado:", embedUrl)
-  }
-
-  refreshEmbed() {
-    console.log("Actualizando embed...")
-    this.loadEmbed()
-    console.log("Embed actualizado")
-  }
-
-  startAutoRefresh() {
-    this.stopAutoRefresh()
-
-    this.autoRefreshInterval = setInterval(
-      () => {
-        console.log("Auto-refresh ejecutándose...")
-        this.refreshEmbed()
-      },
-      5 * 60 * 1000,
-    ) // 5 minutos
-
-    console.log("Auto-refresh programado cada 5 minutos")
-  }
-
-  stopAutoRefresh() {
-    if (this.autoRefreshInterval) {
-      clearInterval(this.autoRefreshInterval)
-      this.autoRefreshInterval = null
-      console.log("Auto-refresh detenido")
-    }
   }
 }
 
@@ -109,25 +78,6 @@ document.addEventListener("DOMContentLoaded", () => {
   window.youtubeLiveEmbed = new YouTubeLiveEmbed()
 })
 
-// Limpiar intervalos cuando se cierra la página
-window.addEventListener("beforeunload", () => {
-  if (window.youtubeLiveEmbed) {
-    window.youtubeLiveEmbed.stopAutoRefresh()
-  }
-})
-
-// Manejar visibilidad de la página para pausar/reanudar auto-refresh
-document.addEventListener("visibilitychange", () => {
-  if (window.youtubeLiveEmbed) {
-    if (document.hidden) {
-      console.log("Página oculta - pausando auto-refresh")
-      window.youtubeLiveEmbed.stopAutoRefresh()
-    } else {
-      console.log("Página visible - reanudando auto-refresh")
-      window.youtubeLiveEmbed.startAutoRefresh()
-    }
-  }
-})
 
     </script>
 </body>
