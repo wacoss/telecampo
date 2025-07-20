@@ -79,7 +79,7 @@ body, html {
     color: white;
     font-size: 42px;
     cursor: pointer;
-    display: none; /* cambiar a position: fixed para que aparezca el botón celeste de mostrar/ocultar sidebar  */
+    /* display: none;  cambiar a position: fixed para que aparezca el botón celeste de mostrar/ocultar sidebar  */
     position: fixed;
     left: 0;
     bottom: 0;
