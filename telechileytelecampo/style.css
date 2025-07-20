@@ -80,10 +80,10 @@ body, html {
     font-size: 42px;
     cursor: pointer;
     display: none; /* cambiar a position: fixed para que aparezca el botón celeste de mostrar/ocultar sidebar  */
-    /*position: fixed;
+    position: fixed;
     left: 0;
     bottom: 0;
-    border-radius: 0 3px 0 0; */
+    border-radius: 0 3px 0 0; 
 }  
 
 .video-container {
