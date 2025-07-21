@@ -1,0 +1,113 @@
+#EXTM3U
+#EXTINF:-1,HBO (Alt)
+https://embedcanaistv.site/hbo/tracks-v1a1/mono.m3u8
+#EXTINF:-1,AXN
+https://embedcanaistv.site/axn/video.m3u8
+#EXTINF:-1,Cinemax
+https://embedcanaistv.site/cinemax/video.m3u8
+#EXTINF:-1,Film Arts
+https://embedcanaistv.site/filmarts/video.m3u8
+#EXTINF:-1,FX
+https://embedcanaistv.site/fx/video.m3u8
+#EXTINF:-1,HBO
+https://embedcanaistv.site/hbo/video.m3u8
+#EXTINF:-1,HBO 2
+https://embedcanaistv.site/hbo2/video.m3u8
+#EXTINF:-1,HBO Family
+https://embedcanaistv.site/hbofamily/video.m3u8
+#EXTINF:-1,HBO Mundi
+https://embedcanaistv.site/hbomundi/video.m3u8
+#EXTINF:-1,HBO Plus
+https://embedcanaistv.site/hboplus/video.m3u8
+#EXTINF:-1,HBO Pop
+https://embedcanaistv.site/hbopop/video.m3u8
+#EXTINF:-1,HBO Signature
+https://embedcanaistv.site/hbosignature/video.m3u8
+#EXTINF:-1,HBO Xtreme
+https://embedcanaistv.site/hboxtreme/video.m3u8
+#EXTINF:-1,Megapix
+https://embedcanaistv.site/megapix/video.m3u
+#EXTINF:-1,Paramount Network
+https://embedcanaistv.site/paramountnetwork/video.m3u8
+#EXTINF:-1,Sony Channel
+https://embedcanaistv.site/sonychannel/video.m3u8
+#EXTINF:-1,Sony Movies
+https://embedcanaistv.site/sonymovies/video.m3u8
+#EXTINF:-1,Space
+https://embedcanaistv.site/space/video.m3u8
+#EXTINF:-1,Star Channel
+https://embedcanaistv.site/starchannel/video.m3u8
+#EXTINF:-1,TC Action
+https://embedcanaistv.site/tcaction/video.m3u8
+#EXTINF:-1,TC Cult
+https://embedcanaistv.site/tccult/video.m3u8
+#EXTINF:-1,TC Fun
+https://embedcanaistv.site/tcfun/video.m3u8
+#EXTINF:-1,TC Pipoca
+https://embedcanaistv.site/tcpipoca/video.m3u8
+#EXTINF:-1,TC Premium
+https://embedcanaistv.site/tcpremium/video.m3u8
+#EXTINF:-1,TC Touch
+https://embedcanaistv.site/tctouch/video.m3u8
+#EXTINF:-1,TNT
+https://embedcanaistv.site/tnt/video.m3u8
+#EXTINF:-1,CNN Brasil
+https://embedcanaistv.site/cnnbrasil/video.m3u8
+#EXTINF:-1,GloboNews
+https://embedcanaistv.site/globonews/video.m3u8
+#EXTINF:-1,Record News
+https://embedcanaistv.site/recordnews/video.m3u8
+#EXTINF:-1,Globo RJ
+https://embedcanaistv.site/globorj/video.m3u8
+#EXTINF:-1,RedeTV
+https://embedcanaistv.site/redetv/video.m3u8
+#EXTINF:-1,SBT SP
+https://embedcanaistv.site/sbtsp/video.m3u8
+#EXTINF:-1,Discovery Channel
+https://embedcanaistv.site/discoverychannel/video.m3u8
+#EXTINF:-1,History
+https://embedcanaistv.site/history/video.m3u8
+#EXTINF:-1,History 2
+https://embedcanaistv.site/history2/video.m3u8
+#EXTINF:-1,National Geographic
+https://embedcanaistv.site/nationalgeografic/video.m3u8
+#EXTINF:-1,GNT
+https://embedcanaistv.site/gnt/video.m3u8
+#EXTINF:-1,Premiere 2
+https://embedcanaistv.site/premiere2/video.m3u8
+#EXTINF:-1,Premiere 3
+https://embedcanaistv.site/premiere3/video.m3u8
+#EXTINF:-1,Premiere 4
+https://embedcanaistv.site/premiere4/video.m3u8
+#EXTINF:-1,Premiere 5
+https://embedcanaistv.site/premiere5/video.m3u8
+#EXTINF:-1,Premiere 7
+https://embedcanaistv.site/premiere7/video.m3u8
+#EXTINF:-1,Cartoon Network
+https://embedcanaistv.site/cartoonnetwork/video.m3u8
+#EXTINF:-1,Nick Jr.
+https://embedcanaistv.site/nickjr/video.m3u8
+#EXTINF:-1,Nova Familia
+https://video03.logicahost.com.br/novafamilia01/novafamilia01/playlist.m3u8
+#EXTINF:-1,Disney Channel
+https://embedcanaistv.site/disneychannel/video.m3u8
+#EXTINF:-1,EML Silva
+https://stmv1.srvif.com/emlsilva/emlsilva/chunklist720p.m3u8
+#EXTINF:-1,24h Simpsons
+https://embedcanaistv.site/24h-simpsons/video.m3u8
+#EXTINF:-1,Hallo Movies
+https://embedcanaistv.site/hallomovies/video.m3u8
+#EXTINF:-1,Discovery Channel (Alt)
+https://anonmedia.eu/discoverychannel/index.m3u8
+#EXTINF:-1,History (Alt)
+https://anonmedia.eu/history/index.m3u8
+#EXTINF:-1,National Geographic (Alt)
+https://anonmedia.eu/nationalgeographic/index.m3u8
+#EXTINF:-1,History 2 (Alt)
+https://anonmedia.eu/history2/index.m3u8
+#EXTINF:-1,Gloobinho
+https://anonmedia.eu/gloobinho/index.m3u8
+#EXTINF:-1,Tooncast
+https://cdn-5.nxplay.com.br/TOONCAST_TK/index.m3u8
+#EXTINF:-1,Multishow
+https://abc.embedmax.site/multishow/video.m3u8
