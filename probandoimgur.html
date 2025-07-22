@@ -215,18 +215,31 @@
     }
 
     // Handle paste
-    function addFileThroughPaste(event) {
-        removeFile();
-        const items = event.clipboardData.items;
-        for (let i = 0; i < items.length; i++) {
-            if (items[i].type.startsWith('image/')) {
-                state.file = items[i].getAsFile();
-                setupReader(state.file);
-                break;
-            }
+   // Handle paste
+function addFileThroughPaste(event) {
+    removeFile();
+    const items = event.clipboardData.items;
+    let fileAdded = false; // Bandera para verificar si se añadió un archivo
+    for (let i = 0; i < items.length; i++) {
+        if (items[i].type.startsWith('image/')) {
+            state.file = items[i].getAsFile();
+            setupReader(state.file);
+            fileAdded = true; // Marcamos que se añadió un archivo
+            break;
         }
-        updateUI();
     }
+    updateUI();
+    // Si se añadió un archivo de imagen, iniciar la carga automáticamente
+    if (fileAdded) {
+        // Utilizamos setTimeout para asegurar que updateUI() se haya procesado
+        // y el estado esté actualizado antes de intentar la carga.
+        setTimeout(() => {
+             if (state.file && !state.uploading) { // Verificaciones adicionales
+                 upload();
+             }
+        }, 0);
+    }
+}
 
     // Upload file
     function upload() {
