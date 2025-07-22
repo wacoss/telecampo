@@ -426,7 +426,8 @@ function addFileThroughPaste(event) {
     });
     dropZone.addEventListener('drop', addFile);
     fileInput.addEventListener('change', addFileThroughInput);
-    uploadContainer.addEventListener('paste', addFileThroughPaste);
+    // Escuchar el evento paste en todo el documento para facilitar el pegado
+    document.addEventListener('paste', addFileThroughPaste);
     removeBtn.addEventListener('click', removeFile);
     uploadBtn.addEventListener('click', upload);
     copyLinkBtn.addEventListener('click', () => copySuccess(state.successData.link));
