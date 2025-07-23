@@ -12,7 +12,7 @@
 <body class="font-sans antialiased bg-gray-900 text-gray-100 min-h-screen">
     <div id="app" class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 class="text-3xl font-bold text-center text-gray-100">Imgur Image Uploader</h1>
-        <p class="text-center text-gray-400 mt-2">Upload your image and get a shareable link instantly.</p>
+        <!--<p class="text-center text-gray-400 mt-2">Upload your image and get a shareable link instantly.</p> -->
         <div id="upload-container" class="mt-8 bg-gray-800 rounded-xl shadow-lg p-6">
             <div id="drop-zone" class="flex justify-center px-6 py-8 border-2 border-dashed border-gray-600 rounded-lg bg-gray-700 transition-colors duration-200">
                 <div id="no-file" class="text-center">
@@ -20,11 +20,11 @@
                         <path d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                     <p class="mt-2 text-sm text-gray-400">
+                        CTRL+V, drag and drop or
                         <label id="file-label" class="font-medium text-indigo-400 transition duration-150 ease-in-out cursor-pointer hover:text-indigo-300 focus:outline-none focus:underline">
                             Upload a file
                             <input id="file-input" type="file" name="image" class="fixed hidden" accept="image/*,video/*">
                         </label>
-                        or drag and drop
                     </p>
                     <p class="mt-1 text-xs text-gray-500">PNG, JPG, GIF up to 10MB</p>
                 </div>
