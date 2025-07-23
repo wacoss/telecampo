@@ -11,13 +11,8 @@ http://45.181.122.46:8090/play/a015
 #EXTINF:0,ESPN 5HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01i
-#EXTINF:0,ESPN 6HD
-#EXTINF:-1,ESPN 2 HD
-http://191.52.214.5:8000/play/a027/index.m3u8
-#EXTINF:-1,ESPN 3 HD
-http://191.52.214.5:8000/play/a025/index.m3u8
-#EXTINF:-1,ESPN HD
-http://191.52.214.5:8000/play/a02s/index.m3u8
+
+test
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01u
 #EXTINF:0,TNT Sports Premiun HD
