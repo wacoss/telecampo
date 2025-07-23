@@ -12,7 +12,7 @@ http://45.181.122.46:8090/play/a015
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01i
 
-test
+#EXTINF:0,test
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01u
 #EXTINF:0,TNT Sports Premiun HD
