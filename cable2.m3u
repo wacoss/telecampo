@@ -107,25 +107,18 @@ http://45.181.122.46:8090/play/a00t
 http://179.1.87.75:8098/play/a0f1/index.m3u8
 #EXTINF:-1,AXN
 http://179.1.87.75:8098/play/a0ha/index.m3u8
-#EXTINF:0,TNT HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a01s
-#EXTINF:0,TNT Series HD
-#EXTVLCOPT:network-caching=1000
+
 #EXTINF:-1,ATRES SERIES HD2
 http://45.181.122.46:8090/play/a01k
-#EXTINF:0,Golden HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a019
-#EXTINF:0,Space HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a00h
 #EXTINF:-1,Cinecanal
 http://179.1.87.75:8098/play/a0dn/index.m3u8
 #EXTINF:-1,Cinemax
 http://179.1.87.75:8098/play/a0h8/index.m3u8
 #EXTINF:-1,FX
 http://179.1.87.75:8098/play/a0hc/index.m3u8
+#EXTINF:0,Golden HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a019
 #EXTINF:-1,HBO
 http://179.1.87.75:8098/play/a0h7/index.m3u8
 #EXTINF:-1,HBO 2
@@ -140,6 +133,9 @@ http://179.1.87.75:8098/play/a0eg/index.m3u8
 http://179.1.87.75:8098/play/a0h9/index.m3u8
 #EXTINF:-1,Space
 http://179.1.87.75:8098/play/a0hb/index.m3u8
+#EXTINF:0,Space HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a00h
 #EXTINF:-1,Studio Universal
 http://179.1.87.75:8098/play/a0ek/index.m3u8
 #EXTINF:-1,SyFy
@@ -150,6 +146,9 @@ http://179.1.87.75:8098/play/a0fn/index.m3u8
 http://179.1.87.75:8098/play/a0du/index.m3u8
 #EXTINF:-1,TNT
 http://179.1.87.75:8098/play/a0dw/index.m3u8
+#EXTINF:0,TNT HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a01s
 #EXTINF:-1,TRO
 http://179.1.87.75:8098/play/a0gi/index.m3u8
 #EXTINF:-1,Universal
