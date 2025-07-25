@@ -1,6 +1,4 @@
-#EXTINF:0,Warner Channel HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a00f
+#EXTM3U
 #EXTINF:0,ESPN 2 HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01v
@@ -53,3 +51,6 @@ http://45.181.122.46:8090/play/a019
 #EXTINF:0,Space HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a00h
+#EXTINF:0,Warner Channel HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a00f
