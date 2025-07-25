@@ -1,0 +1,55 @@
+#EXTINF:0,Warner Channel HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a00f
+#EXTINF:0,ESPN 2 HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a01v
+#EXTINF:0,ESPN 3 HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a01t
+#EXTINF:0,ESPN Premium HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a015
+#EXTINF:0,ESPN 5HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a01i
+#EXTINF:0,ESPN 6
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a01u
+#EXTINF:0,TNT Sports Premiun HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a00i
+#EXTINF:0,History Channel HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a00c
+#EXTINF:0,Discovery H&H HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a01f
+#EXTINF:0,Discovery HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a014
+#EXTINF:0,El Gourmet HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a021
+#EXTINF:0,Food Network HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a01c
+#EXTINF:0,Disney HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a01q
+#EXTINF:0,ETC TV
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a00t
+#EXTINF:0,TNT HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a01s
+#EXTINF:0,TNT Series HD
+#EXTVLCOPT:network-caching=1000
+#EXTINF:-1,ATRES SERIES HD2
+http://45.181.122.46:8090/play/a01k
+#EXTINF:0,Golden HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a019
+#EXTINF:0,Space HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a00h
