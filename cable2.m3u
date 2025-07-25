@@ -1,12 +1,15 @@
 #EXTM3U
 #EXTINF:-1,E Entertainment
+#EXTVLCOPT:network-caching=1000
 http://179.1.87.75:8098/play/a0eu/index.m3u8
 #EXTINF:-1,Warner
+#EXTVLCOPT:network-caching=1000
 http://179.1.87.75:8098/play/a0et/index.m3u8
 #EXTINF:0,Warner Channel HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a00f
 #EXTINF:-1,CNN Español
+#EXTVLCOPT:network-caching=1000
 http://179.1.87.75:8098/play/a0e6/index.m3u8
 #EXTINF:0,ESPN 2 HD
 #EXTVLCOPT:network-caching=1000
