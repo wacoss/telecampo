@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC>
+<html lang="es">
+<head>
+
+    <title> LOREM </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+
+    <link href="https://monitortv.vercel.app/css/estilos.css" rel="stylesheet" type="text/css">
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+    <script src='https://platform.s-mdstrm.com/js/player_api.js?v=(none)'></script>
+    <script type="text/javascript" src='https://www.chilevision.cl/chilevision/js-local/jquery/jquery.min.js'></script>
+
+    <script>
+        var dfpRandomNumber = Math.floor((Math.random() * 10000000000) + 1);
+        var dfpURL = window.location.href;
+        var dfpURLEncoded = dfpURL;
+        var dfpVidId = '63ee47e1daeeb80a30d98ef4';
+        var dfpShowName = ' ';
+        var dfpCountry = 'cl';
+        var dfpLanguage = 'es';
+        var dfpAdunit1 = 'live';
+        var dfpAdunit2 = 'senal-online';
+        var dfpAdunit3 = 'live';
+    </script>
+
+    <div style="position: absolute; display: inline-block; width: 100%; height: 100%; top: 0%; left: 0px;"class="embed-responsive embed-responsive-16by9">
+		<div class="video-player player_content_data" data-id="63ee47e1daeeb80a30d98ef4" data-msplayersrc="ms_player_src_01" data-senal="live_1" data-idsenal="63ee47e1daeeb80a30d98ef4">
+            <div id="mdstrm-player" class="box-video player_area"></div>
+        </div>
+
+        <a style="text-decoration: none;" href="javascript:location.reload()" class="BotonCuadradoRecargarSeñalTexto waves-effect waves-white" role="button" >
+            <span class="material-icons-round">loop</span>
+        </a>
+	</div>
+    
+    <script>
+    'use strict';
+(function(window) {
+    var _self; // corresponde a la referencia al objeto mismo, es como un this que siempre apunta al objeto mayor
+    var _helper = window.helper;
+    var EnVivo = {
+        // acá van las variables que se usarán de EnVivoa global
+        vars: {
+            prontus: "chilevision",
+            url_token: "https://chilevision.cl:8080/token.php/",
+            id_senal: 'senal-online'
+        },
+        init: function() {
+            _self = this; // guardamos la referencia al this
+            _self.ui.getElements(); // obtenemos los objetos relativos a la implementación
+            _self.ui.onload_page();
+            _self.actions.instant_restart_player();
+        },
+        ui: {
+            /**
+             * Objeto encargado de manejar los elementos graficos de la vista.
+             */
+            elements: {
+                radioRating: undefined,
+                btnEnviar: undefined,
+                form: undefined
+            },
+            getElements: function() {
+                _self.ui.elements.player_content_data = $(".player_content_data")
+            },
+            onload_page: function() {
+                $(document).ready(function() {
+
+                    _self.ui.elements.player_content_data = _self.ui.elements.player_content_data.filter(function() {
+                        return $(this).data("msplayersrc") !== undefined && $(this).data("senal") !== undefined && $(this).data("idsenal") !== undefined;
+                    });
+
+                    _self.ui.elements.player_content_data.each(function(){
+                        let msplayersrc = $(this).data("msplayersrc")
+                        let senal = $(this).data("senal")
+                        let idsenal = $(this).data("idsenal")
+                        let contenedor = 'mdstrm-player';
+                        if ($(this).data('contenedor') !== undefined) {
+                            contenedor = $(this).data('contenedor')+idsenal;
+                        }
+                        const now = Date.now()
+
+                        $.post(EnVivo.vars.url_token + msplayersrc + "/" + senal + "/" + idsenal + "/" + now + ".json", {
+                                msplayersrc: msplayersrc,
+                                senal: senal,
+                                idsenal: idsenal
+                            }).done(function(returnedData) {
+                                let token;
+                                if(returnedData.token == undefined) {
+                                    let data = $.parseJSON(returnedData);
+                                    token = data.token;
+                                } else {
+                                    token = returnedData.token;
+                                }
+                                
+                                //console.log(data.token);
+                                EnVivo.actions.cargarEnVivo(token, idsenal, dfpShowName, dfpAdunit1, dfpAdunit2, dfpAdunit3, contenedor)
+                            }).fail(function() {
+                            console.log("error");
+                        });
+                    });
+                    
+
+                });
+            },
+        },
+        actions: {
+            refreshVideo: function(){
+                var videos = [ $(".player_content_data").data("id"), ""];
+                PlayerList.initPort(960,540,videos)
+            },
+            instantRefreshVideos: function(seconds, array_videos) {
+                seconds = (seconds * 1000)
+                setInterval(EnVivo.actions.refreshVideo ,seconds);
+            },
+            instant_restart_player: function(){
+                let seconds = _self.ui.elements.player_content_data.data("restart-seconds")
+                seconds = (seconds * 1000)
+                if(_self.ui.elements.player_content_data.data("restart-seconds") != undefined){
+                    if(_self.ui.elements.player_content_data.data("restart-seconds") != ""){
+                        setInterval(EnVivo.ui.onload_page,seconds);
+                    }
+                }
+            },
+            cargarEnVivo: function(token_post, id_post, dfpShowName, dfpAdunit1, dfpAdunit2, dfpAdunit3, contenedor) {
+                // Señal Online
+                let token = token_post;
+                let id = id_post;
+                let prontus_id = _self.vars.id_senal;
+                let origen = _self.vars.prontus;
+                let PlayerReady = true;
+                let PrimerPlay = true;
+
+                let timeStep = 60;
+                let trackingTimePeriod = timeStep * 1000;
+
+                var togglePlayEvent = true;
+                var eventTimer = 0;
+                var clearTimer = function() {
+                    window.clearInterval(eventTimer);
+                    togglePlayEvent = true;
+                }
+                let _primerPlayDelLive = true;
+
+                dfpShowName = dfpShowName.replaceAll(" ", "-");
+                dfpAdunit1 = dfpAdunit1.replaceAll(" ", "-");
+                dfpAdunit2 = dfpAdunit2.replaceAll(" ", "-");
+                dfpAdunit3 = dfpAdunit3.replaceAll(" ", "-");
+                //console.log("TOKEN: " + token);
+
+                // Options:
+                var playerOptions = {
+                    width: 960, // Width in pixels
+                    height: 540, // Height in pixels
+                    type: "live", // Video type. Possible values: "media", "live"
+                    protocol: "https",
+                    id: id, // Video ID
+                    //className: 'optanon-category-2',
+                    //useDataSrc: true,
+                    access_token: token,
+                    volumen: "100",
+                    autoplay: true, // Enable autoplay. Possible values: true, false
+                    events: { // Callbacks to be triggered when certain actions are executed by the player. All optional.
+                        onPlayerReady: function() { // Optional callback to be triggered as soon as the player has finished loading
+                            if (PlayerReady) {
+                                console.log("Event: Player_Ready");
+                                if (turner_metadata.trackAction) {
+                                    turner_metadata.trackAction.push({
+                                        "type": "video",
+                                        "subtype": "Player_Ready",
+                                        "data": {
+                                            "playerid": "chv player",
+                                            "content_duration": 0, //duración
+                                            "content_dataCreated": new Date().toISOString().slice(0, 10), //fecha de publicación del video
+                                            "content_dataAired": new Date().toISOString().slice(0, 10), //fecha de cierre
+                                            "content_name": 'señal online', //título del artículo
+                                            "content_id": id, //id_ms
+                                            "content_type": "live",
+                                            /* clip, vod, live */
+                                            "content_showName": 'senal-online', //la sección
+                                            "franchise": 'senal online', //la sección
+                                            "content_seasonNumber": "",
+                                            "content_episodeNumber": "",
+                                            "content_genre": "programa",
+                                            "content_rating": "",
+                                            "content_originator": "turner",
+                                            "content_network": "chilevision",
+                                            "content_mvpd": "",
+                                            "content_authorized": "",
+                                            "day_part": "",
+                                            "content_feed": ""
+                                        }
+                                    });
+                                }
+                                PlayerReady = false;
+                            }
+                        },
+
+                        onPlay: function() { // Optional callback to be triggered as soon as the player starts playing
+                            if (_primerPlayDelLive) {
+                                console.log("Primer Play de Video");
+                                // Marco play de contenido
+                                _gaq.push(['_trackEvent', 'En Vivo', 'Play', 'Señal On Line']);
+                                gtag('event', 'video_play', {
+                                    "debug_mode": "true",
+                                    "programa": dfpShowName,
+                                    "tipo": "live"
+                                });
+                                console.log("Event: Media_Started");
+                                turner_metadata.trackAction.push({
+                                    "type": "video",
+                                    "subtype": "Media_Started",
+                                    "data": {}
+                                });
+                                _primerPlayDelLive = false;
+                            } else {
+                                // se resume un video.
+                                turner_metadata.trackAction.push({
+                                    "type": "video",
+                                    "subtype": "Media_Resumed",
+                                    "data": {}
+                                });
+                            }
+                            if (togglePlayEvent) {
+                                var time = 0;
+                                eventTimer = window.setInterval(function() {
+                                    time += timeStep;
+                                }, trackingTimePeriod);
+                                togglePlayEvent = false;
+                            }
+                        },
+
+                        onAdsImpression: function() {
+                            // Marco play publicitario
+                            //_gaq.push(['_trackEvent', 'Publicidad', 'Play', 'Señal On Line_en_vivo_preroll']);
+                            console.log("Event: Ad_Started (preroll)");
+                            turner_metadata.trackAction.push({
+                                "type": "video",
+                                "subtype": "Ad_Started",
+                                "data": {
+                                    "ad_id": "ad_chv",
+                                    "ad_duration": 0,
+                                    "ad_type": "preroll"
+                                }
+                            });
+                        },
+                        onAdsSkipped: function() {
+                            console.log("Event: Ad_Skipped");
+                            turner_metadata.trackAction.push({
+                                "type": "video",
+                                "subtype": "Ad_Skipped",
+                                "data": {}
+                            });
+                        },
+                        onAdsComplete: function() {
+                            console.log("Event: Ad_Finished");
+                            turner_metadata.trackAction.push({
+                                "type": "video",
+                                "subtype": "Ad_Finished",
+                                "data": {}
+                            });
+                        },
+                        onVideoEnd: function() { // Optional callback to be triggered when the video ends playing
+                            clearTimer();
+                            console.log("Event: Ad_Finished");
+                            turner_metadata.trackAction.push({
+                                "type": "video",
+                                "subtype": "Ad_Finished",
+                                "data": {}
+                            });
+                        },
+
+                        onVideoStop: function() { // Optional callback to be triggered when the user stops or pauses the video
+                            console.log("Event: Media_Paused");
+                            turner_metadata.trackAction.push({
+                                "type": "video",
+                                "subtype": "Media_Paused",
+                                "data": {}
+                            });
+                            clearTimer();
+
+                        },
+
+                        onVideoError: function() { // Optional callback to be triggered when there's a playback error
+                            clearTimer();
+                        },
+
+                        onVolumeChange: function(volume) { // Optional callback to be triggered when volume is changed (0-100)
+                            console.log("Volume was changed to " + volume);
+                        },
+
+                        onTimeUpdate: function(time) { // Optional callback to be triggered when time is updated
+                        },
+
+                        onFullscreenChange: function(fullscreen) { // Optional callback to be triggered when fullscreen status change
+                        },
+                    }
+                };
+
+                let domain = document.domain;
+
+                let iu = "/1047933/chilevision";
+
+                let custom_params = "sect%3D" + dfpAdunit1 + "%26sub%3D" + dfpAdunit2 + "%26show%3D" + dfpShowName + "%26videotype%3D" + dfpAdunit3 + "%26cat%3D" + dfpAdunit1 + "%26vidid%3D" + dfpVidId + "%26site%3Dchilevision%26app%3Dfalse%26theme%3Dge";
+
+                playerOptions['custom'] = {
+                    "categoria_prontus": prontus_id,
+                    "dfpLanguage": dfpLanguage,
+                    "dfpCountry": dfpCountry,
+                    "dfpShowName": dfpShowName,
+                    "dfpVidId": dfpVidId,
+                    "dfpURLEncoded": dfpURLEncoded,
+                    "dfpRandomNumber": dfpRandomNumber,
+                    "origen": origen,
+                    "iu": iu,
+                    "app": "false",
+                    "cust_params": custom_params,
+                    "amp": "false",
+                    "appname": ""
+                };
+
+                let str = JSON.stringify(playerOptions['custom']);
+
+                let player = new MediastreamPlayer(contenedor, playerOptions);
+            },
+        }
+    };
+    window.EnVivo = EnVivo; // entregamos la referencia al dom principal
+})(window);
+// se inicializa el objeto
+if(typeof PlayerList === 'undefined'){
+    var PlayerList = true
+}
+$(window).ready(function() {
+    EnVivo.init();
+})
+
+      
+    </script>
+</body>
+
+</html>
