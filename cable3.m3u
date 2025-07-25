@@ -2,9 +2,6 @@
 #EXTINF:0,ESPN 2 HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01v
-#EXTINF:0,ESPN 3 HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a01t
 #EXTINF:0,ESPN Premium HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a015
