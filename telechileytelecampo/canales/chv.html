@@ -217,7 +217,7 @@
                             window.clearInterval(eventTimer);
                             togglePlayEvent = true;
                         }
-                        let _primerPlayDelLive = true;
+                        let _primerPlayDelLive = false;
                         dfpShowName = dfpShowName.replaceAll(" ", "-");
                         dfpAdunit1 = dfpAdunit1.replaceAll(" ", "-");
                         dfpAdunit2 = dfpAdunit2.replaceAll(" ", "-");
@@ -333,7 +333,7 @@
 
                         let domain = document.domain;
                         let iu = "/1047933/chilevision";
-                        let custom_params = "sect%3D" + dfpAdunit1 + "%26sub%3D" + dfpAdunit2 + "%26show%3D" + dfpShowName + "%26videotype%3D" + dfpAdunit3 + "%26cat%3D" + dfpAdunit1 + "%26vidid%3D" + dfpVidId + "%26site%3Dchilevision%26app%3Dfalse%26theme%3Dge";
+                        let custom_params = "sect%3D" + dfpShowName + "%26videotype%3D" + dfpVidId + "%26site%3Dchilevision%26app%3Dfalse%26theme%3Dge";
                         playerOptions['custom'] = {
                             "categoria_prontus": prontus_id,
                             "dfpLanguage": dfpLanguage,
