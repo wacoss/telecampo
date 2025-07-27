@@ -176,7 +176,7 @@
                                         } else {
                                             token = returnedData.token;
                                         }
-                                        EnVivo.actions.cargarEnVivo(token, idsenal, dfpShowName, dfpAdunit1, dfpAdunit2, dfpAdunit3, contenedor)
+                                        EnVivo.actions.cargarEnVivo(token, idsenal, dfpShowName, contenedor)
                                     }).fail(function() {
                                     console.log("error");
                                 });
@@ -202,7 +202,7 @@
                             }
                         }
                     },
-                    cargarEnVivo: function(token_post, id_post, dfpShowName,dfpAdunit1, dfpAdunit2, dfpAdunit3, contenedor) {
+                    cargarEnVivo: function(token_post, id_post, dfpShowName, contenedor) {
                         let token = token_post;
                         let id = id_post;
                         let prontus_id = _self.vars.id_senal;
