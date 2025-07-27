@@ -297,34 +297,9 @@
                                         togglePlayEvent = false;
                                     }
                                 },
-                                onAdsImpression: function() {
-                                    console.log("Event: Ad_Started (preroll)");
-                                    turner_metadata.trackAction.push({
-                                        "type": "video",
-                                        "subtype": "Ad_Started",
-                                        "data": {
-                                            "ad_id": "ad_chv",
-                                            "ad_duration": 0,
-                                            "ad_type": "preroll"
-                                        }
-                                    });
-                                },
-                                onAdsSkipped: function() {
-                                    console.log("Event: Ad_Skipped");
-                                    turner_metadata.trackAction.push({
-                                        "type": "video",
-                                        "subtype": "Ad_Skipped",
-                                        "data": {}
-                                    });
-                                },
-                                onAdsComplete: function() {
-                                    console.log("Event: Ad_Finished");
-                                    turner_metadata.trackAction.push({
-                                        "type": "video",
-                                        "subtype": "Ad_Finished",
-                                        "data": {}
-                                    });
-                                },
+                              
+                            
+                             
                                 onVideoEnd: function() {
                                     clearTimer();
                                     console.log("Event: Ad_Finished");
