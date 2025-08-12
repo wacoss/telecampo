@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 , TV+
+https://jireh-6-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
+#EXTINF:-1 , Mega
+https://unlimited1-cl-isp.dps.live/mega/mega.smil/mega/livestream0/chunks.m3u8
+#EXTINF:-1 , 13
+https://unlimited1-cl-isp.dps.live/t13radio/t13radio.smil/playlist.m3u8
+#EXTINF:-1 , Canal 7
+https://mdstrm.com/live-stream-playlist/57a498c4d7b86d600e5461cb.m3u8?access_token=AoYKRfeOLZEDLrpm8vpjbmcPnhNByJxaGgKHbYgl1b9nxDBJqxWZEsJa7ROo3ZSKBTB5xP1LxWe
