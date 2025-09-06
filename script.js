@@ -28,14 +28,12 @@
             'Azteca Notic': 'canales/aztecanoticias',    
             'Caracol': 'canales/caracol',
             'C5N': 'canales/c5n',    
-            //'Canal Sur': 'canales/canalsur', 
-            //'City TV': 'canales/citytv.html',       
             'El Doce': 'canales/eldoce',   
-            'N+': 'canales/nmas',                    
-            //'NTN 24': 'canales/ntn24.html',   
+            'N+': 'canales/nmas',                      
             'Canal 6': 'canales/canal6',       
             'Telefe Notic': 'canales/telefenoticias',   
             'Telesur': 'canales/telesur',   
+            'TN': 'canales/tn',   
             };
 
             // Función para mostrar los canales
