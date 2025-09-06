@@ -1,11 +1,120 @@
 <!DOCTYPE html>
-<html lang="es-ES">
+<html lang="es-CL">
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TV Lorem Ipsum</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="noindex, nofollow">
+    <title>TeleCampo</title>
+<!--    <link rel="stylesheet" href="style.css"> -->
+    <style>
+       body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh; 
+    background-color: #1a1a1a;
+    color: white;
+
+}
+
+.sidebar {
+    width: 230px; /*width: 250px;*/
+    background-color: #2c2c2c;
+    transition: margin-left 0.05s;
+    overflow-y: auto;   
+}
+
+.sidebar.hidden {
+    margin-left: -230px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+  /*padding: 0px; */
+    padding: 10px;
+}
+
+.sidebar li {
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+@media (width < 800px){
+.sidebar li a {
+  font-size: 20px;
+} 
+}
+
+.sidebar li:hover {
+    background-color: #4070f4;
+}
+
+.sidebar li.active {
+    background-color: #4070f4;  
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  display: block; /* Hace que todo el botón sea un link */
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    height: 100%;
+  
+}
+
+
+.toggle-btn {
+  cursor: pointer;
+  padding: 0px 12px 0px 2px;  
+  width: 25px;
+  height: 70px;
+  background-color: #2c2c2c; 
+  border: 1px solid #4070f4;
+  border-left: none;
+  border-radius: 0 8px 8px 0;
+  color: white;
+  font-size: 24px;  
+  position: fixed;
+  left: 0;
+  bottom: 10px;  
+}  
+            
+.toggle-btn:active {
+    background-color: #4070f4;
+} 
+.toggle-btn:visited {
+    border: none;
+}     
+        
+.video-container {
+    flex-grow: 1;
+    background-color: black;
+    height: 100%;  
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+} 
+    </style>
 </head>
   
 <body>
@@ -17,20 +126,16 @@
         </aside> 
    
       
-          <main class="main-content">
-            
+          <main class="main-content">            
             <div>
-                <button id="toggleSidebar" class="toggle-btn">☰</button>
-            </div>
+                <button id="toggleSidebar" class="toggle-btn">»</button> 
+            </div> 
             <div class="video-container">
-              <!-- como pincha el primer canal en primer lugar no se alcanzará a ver nada por defecto al abrir la página si es que pongo una señal m3u8 en el campo src 
-                  <iframe id="iframe" src="/miplayer.html?file=https://mdstrm.com/live-stream-playlist/5c0e8b19e4c87f3f2d3e6a59.m3u8" frameborder="0" allowfullscreen></iframe>  -->            
-              <iframe id="iframe" src="dalomismoloqueponga.m3u8" frameborder="0" allowfullscreen></iframe> 
+            <iframe id="iframe" src="https://www.google.com/" frameborder="0"></iframe> 
             </div>
-        </main>
-      
+        </main>  
     </div>
     
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
