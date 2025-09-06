@@ -11,7 +11,7 @@
             'Inicio': 'flipflapclock.html',  // si lo quitas el primer canal se reproducirá pausado,
             'TVN': 'canales/tvn.html',  
             'CHV': 'canales/chv.html',   
-            //'TeleTrece': 'canales/teletrece.html',
+            'TeleTrece': 'canales/teletrece',
             //'24 Horas': 'canales/24horas.html',    
             'Mega Noticias': 'canales/meganoticias.html',
             'CHV Noticias': 'canales/chvnoticias.html',
