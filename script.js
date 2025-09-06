@@ -15,7 +15,7 @@
             '24 Horas': 'canales/24horas.html',    
             'Mega Noticias': 'canales/meganoticias.html',
             'CHV Noticias': 'canales/chvnoticias.html',
-            'TVU': 'canales/tvu.html',
+            'TVU': 'canales/tvu',
             'Tevex*': 'canales/tevex.html',
             'Zona Latina': 'canales/zonalatina.html',  
             'RTVE': 'canales/rtve.html',  
@@ -47,8 +47,8 @@
             'Telefe Notic': 'canales/telefenoticias.html',   
             'Telesur': 'canales/telesur.html',   
             'TN': 'canales/todonoticias.html',   
-            'Univisión Notic*': 'canales/univisionnoticias.html', 
-            'Zapping Ecuad*': 'canales/zappingecuador.html',     
+            //'Univisión Notic*': 'canales/univisionnoticias.html', 
+            //'Zapping Ecuad*': 'canales/zappingecuador.html',     
               
             };
 
