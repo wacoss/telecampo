@@ -8,6 +8,14 @@
   <title>lorem ipsum</title>
   <style>
     body { 
+      /*
+      margin: 0;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     height: 100vh;
+      */
 
       margin: 0;
       padding: 0;
@@ -16,14 +24,14 @@
       color: #999;
       height: 100dvh;
       overflow: hidden;
-      
+
     }
     #player iframe {
       width: 100%;
      /* height: 100%; */
       height: 100dvh;
       border: none;
-  
+
     }
   </style>
 </head>
@@ -33,8 +41,8 @@
   <script>
   async function loadYouTube() {
     const apiKey = "AIzaSyC_pfAq02hEk73WZH6jr4wGdMfwpoQlqfE"; //  API restringida a URL específica https://console.cloud.google.com/apis/credentials
-    //const channelId = "UCTXNz3gjAypWp3EhlIATEJQ"; 
-    const channelId = "UCo1nfa1JKNqtcUyLjLwTiIw"; 
+    const channelId = "UCsRnhjcUCR78Q3Ud6OXCTNg"; 
+
     let videoId = null;
 
     try {
@@ -69,7 +77,11 @@
   // Opcional: refrescar cada 5 minutos por si cambia el directo
  // setInterval(loadYouTube, 5 * 60 * 1000);
   </script>
+</body>
 </html>
+
+
+
 <!--
 <!DOCTYPE html>
 <html lang="es-CL">
