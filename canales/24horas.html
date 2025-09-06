@@ -1,6 +1,89 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 <head>
+  <meta charset="UTF-8">
+  <meta name="referrer" content="no-referrer">
+  <!-- Si con el referrer de arriba no funciona usar este: <meta name="referrer" content="strict-origin-when-cross-origin">  -->
+
+  <title>lorem ipsum</title>
+  <style>
+    body { 
+      /*
+      margin: 0;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     height: 100vh;
+      */
+
+      margin: 0;
+      padding: 0;
+      font-family: 'Gabarito', sans-serif;
+      background-color: #000;
+      color: #999;
+      height: 100dvh;
+      overflow: hidden;
+
+    }
+    #player iframe {
+      width: 100%;
+     /* height: 100%; */
+      height: 100dvh;
+      border: none;
+
+    }
+  </style>
+</head>
+<body>
+  <div id="player"></div>
+
+  <script>
+  async function loadYouTube() {
+    const apiKey = "AIzaSyC_pfAq02hEk73WZH6jr4wGdMfwpoQlqfE"; //  API restringida a URL específica https://console.cloud.google.com/apis/credentials
+    const channelId = "UCTXNz3gjAypWp3EhlIATEJQ"; 
+
+    let videoId = null;
+
+    try {
+      // Verificar si hay transmisión en vivo
+      let url = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&eventType=live&type=video&key=${apiKey}`;
+      let res = await fetch(url);
+      let data = await res.json();
+
+      if (data.items && data.items.length > 0) {
+        videoId = data.items[0].id.videoId; // 🎥 ID del directo
+      }
+    } catch (e) {
+      console.error("Error al consultar YouTube API:", e);
+    }
+
+    // Renderizar reproductor o mensaje
+    if (videoId) {
+      document.getElementById("player").innerHTML = `
+        <iframe 
+          src="https://www.youtube.com/embed/${videoId}?autoplay=1&mute=0&rel=0&controls=1&fs=1" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>`;
+    } else {
+      document.getElementById("player").innerHTML = "<p style='color:white'>No hay transmisión en vivo disponible</p>";
+    }
+  }
+
+  // Ejecutar al cargar la página
+  loadYouTube();
+
+  // Opcional: refrescar cada 5 minutos por si cambia el directo
+ // setInterval(loadYouTube, 5 * 60 * 1000);
+  </script>
+</body>
+</html>
+
+<!--
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
     <title>lorem</title>
     <style>
         body {
@@ -29,3 +112,4 @@
     </iframe>
 </body>
 </html>
+-->
