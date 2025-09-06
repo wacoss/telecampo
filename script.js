@@ -16,8 +16,6 @@
             'Mega Noticias': 'canales/meganoticias.html',
             'CHV Noticias': 'canales/chvnoticias.html',
             'TVU': 'canales/tvu',
-            'Tevex*': 'canales/tevex.html',
-            'Zona Latina': 'canales/zonalatina.html',  
             'RTVE': 'canales/rtve.html',  
             'DW': 'canales/dw.html',   
             'Euronews': 'canales/euronews.html',  
