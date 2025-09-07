@@ -11,8 +11,8 @@
             'Inicio': 'flipflapclock.html',  // si lo quitas el primer canal se reproducirá pausado,
             'TVN': 'canales/tvn',  
             'CHV': 'canales/chv',   
-            'TeleTrece': 'canales/teletrece',
-            '24 Horas': 'canales/24horas',    
+            'TeleTrece*': 'canales/teletrece', // fallando en samsung
+            '24 Horas*': 'canales/24horas',    // fallando en samsung
             'Meganoticias': 'canales/meganoticias',
             'CHV Noticias': 'canales/chvnoticias',
             'TVU': 'canales/tvu',
