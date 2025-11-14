@@ -1,8 +1,14 @@
 #EXTM3U
 #EXTINF:-1 ,TV+ 
 https://jireh-6-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
+
+####funciona solo en simple tv y no en app m3u iptv
 #EXTINF:-1 ,TVN 
 https://m3u-dinamica.vercel.app/api
+
+#EXTINF:-1 ,TVN estatico no funciona 
+https://mdstrm.com/live-stream-playlist-v/5346f5f2c1e6f5810b5b9df0.m3u8
+
 #EXTINF:-1 ,Mega 
 https://unlimited1-cl-isp.dps.live/mega/mega.smil/mega/livestream0/chunks.m3u8
 #EXTINF:-1 ,13 
