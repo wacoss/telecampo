@@ -1,1 +1,1 @@
-Esta conectado con https://telecampo.netlify.app/
+Conectado con Netlify en https://telecampo.netlify.app/
