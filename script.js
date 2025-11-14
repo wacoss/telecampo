@@ -8,7 +8,7 @@
             // Lista de canales
             const channels = {
                   
-            'InicioMEO': 'flipflapclock.html',  // si lo quitas el primer canal se reproducirá pausado,
+            'Inicio': 'flipflapclock.html',  // si lo quitas el primer canal se reproducirá pausado,
             'TVN': 'canales/tvn',  
             'CHV': 'canales/chv',   
             'TeleTrece*': 'canales/teletrece', // fallando en samsung
