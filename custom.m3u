@@ -1,8 +1,8 @@
 #EXTM3U
-#EXTINF:-1 ,TVN 
-https://m3u-dinamica.vercel.app/api
 #EXTINF:-1 ,TV+ 
 https://jireh-6-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
+#EXTINF:-1 ,TVN 
+https://m3u-dinamica.vercel.app/api
 #EXTINF:-1 ,Mega 
 https://unlimited1-cl-isp.dps.live/mega/mega.smil/mega/livestream0/chunks.m3u8
 #EXTINF:-1 ,13 
