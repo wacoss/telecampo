@@ -1,35 +1,12 @@
-# todos se ven en nokia
 #EXTM3U
+
 #EXTINF:-1,E Entertainment
-#EXTVLCOPT:network-caching=1000
 http://179.1.87.75:8098/play/a0eu/index.m3u8
 #EXTINF:-1,Warner
-#EXTVLCOPT:network-caching=1000
 http://179.1.87.75:8098/play/a0et/index.m3u8
-#EXTINF:0,Warner Channel HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a00f
 #EXTINF:-1,CNN Español
-#EXTVLCOPT:network-caching=1000
 http://179.1.87.75:8098/play/a0e6/index.m3u8
-#EXTINF:0,ESPN 2 HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a01v
-#EXTINF:0,ESPN 3 HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a01t
-#EXTINF:0,ESPN Premium HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a015
-#EXTINF:0,ESPN 5HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a01i
-#EXTINF:0,ESPN 6
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a01u
-#EXTINF:0,TNT Sports Premiun HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a00i
+
 #EXTINF:-1,ESPN 2 Latin
 http://179.1.87.75:8098/play/a0ew/index.m3u8
 #EXTINF:-1,ESPN 3
@@ -38,22 +15,14 @@ http://179.1.87.75:8098/play/a0hn/index.m3u8
 http://179.1.87.75:8098/play/a0fu/index.m3u8
 #EXTINF:-1,ESPN CO
 http://179.1.87.75:8098/play/a0ge/index.m3u8
+
 #EXTINF:-1,Fox Sports 2
 http://179.1.87.75:8098/play/a0fg/index.m3u8
 #EXTINF:-1,Fox Sports 3
 http://179.1.87.75:8098/play/a0fh/index.m3u8
-#EXTINF:-1,Win
+#EXTINF:-1,Win Sports
 http://179.1.87.75:8098/play/a0he/index.m3u8
 
-#EXTINF:0,History Channel HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a00c
-#EXTINF:0,Discovery H&H HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a01f
-#EXTINF:0,Discovery HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a014
 #EXTINF:-1,Discovery Channel
 http://179.1.87.75:8098/play/a0er/index.m3u8
 #EXTINF:-1,Discovery ID
@@ -68,16 +37,11 @@ http://179.1.87.75:8098/play/a0dm/index.m3u8
 http://179.1.87.75:8098/play/a0dl/index.m3u8
 #EXTINF:-1,TLC
 http://179.1.87.75:8098/play/a0fd/index.m3u8
-#EXTINF:-1,HomeandHealth
+#EXTINF:-1,Home and Health
 http://179.1.87.75:8098/play/a0fp/index.m3u8
 #EXTINF:-1,Lifetime
 http://179.1.87.75:8098/play/a0e3/index.m3u8
-#EXTINF:0,El Gourmet HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a021
-#EXTINF:0,Food Network HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a01c
+
 #EXTINF:-1,MTV
 http://179.1.87.75:8098/play/a0dq/index.m3u8
 #EXTINF:-1,Sin Limites
@@ -91,18 +55,12 @@ http://179.1.87.75:8098/play/a0hk/index.m3u8
 http://179.1.87.75:8098/play/a0dk/index.m3u8
 #EXTINF:-1,Disney Channel
 http://179.1.87.75:8098/play/a0eq/index.m3u8
-#EXTINF:0,Disney HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a01q
 #EXTINF:-1,Disney Jr
 http://179.1.87.75:8098/play/a0ei/index.m3u8
 #EXTINF:-1,Discovery Kids
 http://179.1.87.75:8098/play/a0e5/index.m3u8
 #EXTINF:-1,BabyFirst
 http://179.1.87.75:8098/play/a0e2/index.m3u8
-#EXTINF:0,ETC TV
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a00t
 
 #EXTINF:-1,AE Mundo
 http://179.1.87.75:8098/play/a0f1/index.m3u8
@@ -114,9 +72,7 @@ http://179.1.87.75:8098/play/a0dn/index.m3u8
 http://179.1.87.75:8098/play/a0h8/index.m3u8
 #EXTINF:-1,FX
 http://179.1.87.75:8098/play/a0hc/index.m3u8
-#EXTINF:0,Golden HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a019
+
 #EXTINF:-1,HBO
 http://179.1.87.75:8098/play/a0h7/index.m3u8
 #EXTINF:-1,HBO 2
@@ -127,28 +83,23 @@ http://179.1.87.75:8098/play/a0eh/index.m3u8
 http://179.1.87.75:8098/play/a0ef/index.m3u8
 #EXTINF:-1,HBO XTREME SD
 http://179.1.87.75:8098/play/a0eg/index.m3u8
+
 #EXTINF:-1,Sony
 http://179.1.87.75:8098/play/a0h9/index.m3u8
 #EXTINF:-1,Space
 http://179.1.87.75:8098/play/a0hb/index.m3u8
-#EXTINF:0,Space HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a00h
+
 #EXTINF:-1,Studio Universal
 http://179.1.87.75:8098/play/a0ek/index.m3u8
-#EXTINF:-1,USA
+#EXTINF:-1,USA Network
 http://179.1.87.75:8098/play/a0e4/index.m3u8
 #EXTINF:-1,TCM
 http://179.1.87.75:8098/play/a0du/index.m3u8
 #EXTINF:-1,TNT
 http://179.1.87.75:8098/play/a0dw/index.m3u8
-#EXTINF:0,TNT HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a01s
-#EXTINF:-1,TNT SERIES 
-http://45.181.122.46:8090/play/a01k
 #EXTINF:-1,TNT Novelas
 http://179.1.87.75:8098/play/a0fn/index.m3u8
+
 #EXTINF:-1,TRO
 http://179.1.87.75:8098/play/a0gi/index.m3u8
 #EXTINF:-1,Universal
@@ -202,6 +153,3 @@ http://179.1.87.75:8098/play/a0fe/index.m3u8
 http://179.1.87.75:8098/play/a0dr/index.m3u8
 #EXTINF:-1,Zoom
 http://179.1.87.75:8098/play/a0gh/index.m3u8
-
-# #EXTINF:-1,Venus
-# http://179.1.87.75:8098/play/a0f2/index.m3u8
