@@ -1,0 +1,29 @@
+#EXTM3U
+#EXTINF:-1,13 Cocina
+https://redirector.dps.live/hls/13cocina/playlist.m3u8
+#EXTINF:-1,13 Cultura
+https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8
+#EXTINF:-1,13 Festival
+https://redirector.dps.live/hls/13festival/playlist.m3u8
+#EXTINF:-1,13 Pop
+https://redirector.dps.live/hls/13pop/playlist.m3u8
+#EXTINF:-1,13 Realities
+https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8
+#EXTINF:-1,13 Teleseries
+https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
+#EXTINF:-1,4TV
+http://181.78.106.127:9000/play/ca027/index.m3u8
+#EXTINF:-1,Canal 13 (RAW) [HD]
+https://unlimited1-cl-isp.dps.live/t13radio/t13radio.smil/playlist.m3u8
+#EXTINF:-1,Canal 24 Horas
+http://mdstrm.com/live-stream-playlist/57d1a22064f5d85712b20dab.m3u8
+#EXTINF:-1,Canal 9
+http://179.56.190.187:8000/play/a1lg/index.m3u8
+#EXTINF:-1,CDO 2
+http://179.51.136.19:8000/play/a1in/index.m3u8
+#EXTINF:-1,CDO Básico
+http://179.56.190.187:8000/play/a0zs/index.m3u8
+#EXTINF:-1,CHV Deportes
+https://mdstrm.com/live-stream-playlist/6531749eaf244059b3ade17b.m3u8
+#EXTINF:-1,CHV Noticias
+https://mdstrm.com/live-stream-playlist/6491ced935a5833c47dd7f41.m3u
