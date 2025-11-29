@@ -26,4 +26,102 @@ http://179.56.190.187:8000/play/a0zs/index.m3u8
 #EXTINF:-1,CHV Deportes
 https://mdstrm.com/live-stream-playlist/6531749eaf244059b3ade17b.m3u8
 #EXTINF:-1,CHV Noticias
-https://mdstrm.com/live-stream-playlist/6491ced935a5833c47dd7f41.m3u
+https://mdstrm.com/live-stream-playlist/6491ced935a5833c47dd7f41.m3u8
+#EXTINF:-1,Cinecanal
+http://179.61.31.142:8000/play/a043/index.m3u8
+#EXTINF:-1,CNN Chile
+http://179.56.190.187:8000/play/a0za/index.m3u8
+#EXTINF:-1,CNN International
+http://181.188.216.5:18000/play/a0f4/index.m3u8
+#EXTINF:-1,Discovery Kids
+https://cdn1.intercom.cdn.moderntv.eu/intercom/stream/DISCOVERYKIDS/20-hls/live-media.m3u8
+#EXTINF:-1,Disney
+https://panel.miplay.cl:8082/disney/index.m3u8
+#EXTINF:-1,DW Español
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+#EXTINF:-1,E! Entertainment
+http://179.56.190.187:8000/play/a0tc/index.m3u8
+#EXTINF:-1,El País TV
+https://d2xqbi89ghm9hh.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-79fx3huimw4xc-ssai-prd/fast-channel-el-pais.m3u8
+#EXTINF:-1,ESPN 2
+http://181.188.216.5:18000/play/a00b/index.m3u8
+#EXTINF:-1,ESPN 3
+http://181.188.216.5:18000/play/a00z/index.m3u8
+#EXTINF:-1,ESPN 4
+http://181.188.216.5:18000/play/a00y/index.m3u8
+#EXTINF:-1,ESPN 5
+http://181.188.216.5:18000/play/a0a4/index.m3u8
+#EXTINF:-1,ETC TV
+http://179.56.190.187:8000/play/a0zp/index.m3u8
+#EXTINF:-1,Fox Sports 2 HD
+http://200.115.120.1:8000/play/ca126/index.m3u8
+#EXTINF:-1,FX
+http://181.188.216.5:18000/play/a0gm/index.m3u8
+#EXTINF:-1,Gol TV
+http://181.188.216.5:18000/play/a01d/index.m3u8
+#EXTINF:-1,H&H
+https://panel.miplay.cl:8082/homeandhealth/index.m3u8
+#EXTINF:-1,Hola TV
+http://181.188.216.5:18000/play/a0da/index.m3u8
+#EXTINF:-1,Los Simpson 24/7
+https://live20.bozztv.com/akamaissh101/ssh101/simptestnews/playlist.m3u8
+#EXTINF:-1,Más Chic
+http://181.188.216.5:18000/play/a01a/index.m3u8
+#EXTINF:-1,Mega
+https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
+#EXTINF:-1,MTV
+https://panel.miplay.cl:8082/mtv/index.m3u8
+#EXTINF:-1,NHK World
+https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8
+#EXTINF:-1,NTV
+https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8
+#EXTINF:-1,Rec TV
+https://panel.miplay.cl:8082/rec/index.m3u8
+#EXTINF:-1,RT Español
+https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
+#EXTINF:-1,T13
+http://179.56.190.187:8000/play/a1gw/index.m3u8
+#EXTINF:-1,T13 En Vivo
+https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8
+#EXTINF:-1,Telecanal
+http://179.56.190.187:8000/play/a1mt/index.m3u8
+#EXTINF:-1,Telemundo
+http://179.56.190.187:8000/play/a0l2/index.m3u8
+#EXTINF:-1,Teletrak
+http://179.56.190.187:8000/play/a0zb/index.m3u8
+#EXTINF:-1,TNT
+http://181.188.216.5:18000/play/a00x/index.m3u8
+#EXTINF:-1,TNT SPORTS
+http://179.56.190.187:8000/play/a0tw/index.m3u8
+#EXTINF:-1,TNT Sports
+http://179.51.136.19:8000/play/a1im/index.m3u8
+#EXTINF:-1,TNT Sports Premium
+http://181.188.216.5:18000/play/a009/index.m3u8
+#EXTINF:-1,Tooncast
+http://181.188.216.5:18000/play/a0pz/index.m3u8
+#EXTINF:-1,TV+
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
+#EXTINF:-1,TVE Internacional
+http://181.188.216.5:18000/play/a0q4/index.m3u8
+#EXTINF:-1,TVN
+http://181.188.216.5:18000/play/a00u/index.m3u8
+#EXTINF:-1,TVN 3
+https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8
+#EXTINF:-1,TVR
+https://unlimited1-cl-isp.dps.live/tvr/tvr.smil/playlist.m3u8
+#EXTINF:-1,TVU
+http://179.56.190.187:8000/play/a1li/index.m3u8
+#EXTINF:-1,TV y TV
+http://179.56.190.187:8000/play/a0zj/index.m3u8
+#EXTINF:-1,TyC Sports
+http://181.188.216.5:18000/play/a01e/index.m3u8
+#EXTINF:-1,UCV TV
+https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
+#EXTINF:-1,UFC
+https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
+#EXTINF:-1,Via X
+http://181.188.216.5:18000/play/a0fh/index.m3u8
+#EXTINF:-1,Via X eSports
+http://181.188.216.5:18000/play/a01f/index.m3u8
+#EXTINF:-1,Zona Latina
+http://179.51.136.19:8000/play/a1hy/index.m3u8
