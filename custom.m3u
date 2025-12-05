@@ -6,8 +6,11 @@ https://jireh-6-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8j
 #EXTINF:-1 ,TVN 
 https://m3u-dinamica.vercel.app/api
 
-#EXTINF:-1 ,TVN estatico no funciona 
-https://mdstrm.com/live-stream-playlist-v/5346f5f2c1e6f5810b5b9df0.m3u8
+#EXTINF:-1 ,TV Chile 
+https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
+
+#EXTINF:-1 ,TVN 
+http://higherpro.xyz:8080/live/56956478056/270924ztv/37.m3u8
 
 #EXTINF:-1 ,Mega 
 https://unlimited1-cl-isp.dps.live/mega/mega.smil/mega/livestream0/chunks.m3u8
