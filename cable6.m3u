@@ -1,4 +1,4 @@
-----------NACIONAL----------
+#EXTM3U
 
 #EXTINF:-1 tvg-id="Canal 13" tvg-name="Canal 13" tvg-logo="https://i.ibb.co/hsPWxXx/canal-13.png" group-title="NACIONAL", CANAL 13
 #KODIPROP:inputstream.adaptive.license_type=clearkey
