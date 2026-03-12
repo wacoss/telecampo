@@ -19,10 +19,6 @@ https://unlimited1-cl-isp.dps.live/t13radio/t13radio.smil/playlist.m3u8
 #EXTINF:0,CHV HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01o
-#EXTINF:-1,CHV HD
-http://191.52.214.5:8000/play/a06p/index.m3u8
-#EXTINF:-1 ,CHV Contigo 
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/62aa5740a47b6c000769f407/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 ,Canal 9 
 https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
 #EXTINF:-1 ,TVU 
@@ -31,22 +27,15 @@ https://pantera1-100gb-cl-movistar.dps.live/tvu/tvu.smil/playlist.m3u8
 https://alba-cl-lared-lared.stream.mediatiquestream.com/original.m3u8
 #EXTINF:-1 ,UCV 
 https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/ucvtv2/livestream2/chunks.m3u8
-#EXTINF:-1 ,TVMas2 
-https://marine2.miplay.cl/tateti/playlist.m3u8
 #EXTINF:-1 ,Tevex 
 https://v2.tustreaming.cl/tevex/index.m3u8
-#EXTINF:0,Zona Latina
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a00r
 #EXTINF:0,Via X
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a00s
 #EXTINF:-1 ,TeleTrece 
 https://jireh-3-hls-video-cl-movistar.dps.live/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8
 #EXTINF:-1 ,24 Horas 
-https://mdstrm.com/live-stream-playlist/57d1a22064f5d85712b20dab.m3u8
-#EXTINF:-1 ,CNN Chile 
-https://jireh-2-hls-video-cl-vtr.dps.live/hls-video/lvcl5/cnn/cnn.smil/cnn/livestream1/chunks.m3u8
+https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8
 #EXTINF:-1 ,DW 
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream01/streamPlaylist.m3u8
 #EXTINF:-1 ,13C 
