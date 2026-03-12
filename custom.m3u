@@ -103,3 +103,5 @@ http://45.181.122.46:8090/play/a01q
 #EXTINF:0,ETC TV
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a00t
+#EXTINF:-1,Los Simpons 24/7
+https://live20.bozztv.com/akamaissh101/ssh101/simptestnews/playlist.m3u8
