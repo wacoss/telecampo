@@ -105,3 +105,81 @@ http://45.181.122.46:8090/play/a01q
 http://45.181.122.46:8090/play/a00t
 #EXTINF:-1,Los Simpons 24/7
 https://live20.bozztv.com/akamaissh101/ssh101/simptestnews/playlist.m3u8
+
+
+##### canales jaunin funcionando al 12 de marzo
+
+#EXTINF:-1,TV+
+https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
+#EXTINF:-1,Mega
+https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
+#EXTINF:-1,TVN
+http://higherpro.xyz:8080/live/56956478056/270924ztv/35.m3u8
+#EXTINF:-1,TVN
+http://higherpro.xyz:8080/live/56956478056/270924ztv/37.m3u8
+#EXTINF:-1,TVN
+http://higherpro.xyz:8080/live/56956478056/270924ztv/38.m3u8
+#EXTINF:-1,13
+http://higherpro.xyz:8080/live/56956478056/270924ztv/48.m3u8
+#EXTINF:-1,13
+http://higherpro.xyz:8080/live/56956478056/270924ztv/49.m3u8
+#EXTINF:-1,13
+http://higherpro.xyz:8080/live/56956478056/270924ztv/50.m3u8
+#EXTINF:-1,13
+http://higherpro.xyz:8080/live/56956478056/270924ztv/51.m3u8
+#EXTINF:-1,Canal 13 (RAW)
+https://unlimited1-cl-isp.dps.live/t13radio/t13radio.smil/playlist.m3u8
+#EXTINF:-1,Canal 13 Internacional
+https://redirector.dps.live/hls/13intav/playlist.m3u8
+#EXTINF:-1,La Red
+http://higherpro.xyz:8080/live/56956478056/270924ztv/53.m3u8
+#EXTINF:-1,UCV TV
+https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
+#EXTINF:-1,TVR
+https://unlimited1-cl-isp.dps.live/tvr/tvr.smil/playlist.m3u8
+
+#EXTINF:-1,T13 En Vivo
+https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8
+#EXTINF:-1,CHV Noticias
+https://mdstrm.com/live-stream-playlist/6491ced935a5833c47dd7f41.m3u8
+#EXTINF:-1,DW Español
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+#EXTINF:-1,RT Español
+https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
+
+#EXTINF:-1,NTV
+https://mdstrm.com/live-stream-playlist/5aaabe9e2c56420918184c6d.m3u8
+#EXTINF:-1,TVN 3
+https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8
+#EXTINF:-1,13 Cocina
+https://redirector.dps.live/hls/13cocina/playlist.m3u8
+#EXTINF:-1,13 Cultura
+https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8
+#EXTINF:-1,13 Festival
+https://redirector.dps.live/hls/13festival/playlist.m3u8
+#EXTINF:-1,13 Pop
+https://redirector.dps.live/hls/13pop/playlist.m3u8
+#EXTINF:-1,13 Realities
+https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8
+#EXTINF:-1,13 Teleseries
+https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
+
+#EXTINF:-1,Los Simpson 24/7
+https://live20.bozztv.com/akamaissh101/ssh101/simptestnews/playlist.m3u8
+
+#EXTINF:-1,UFC
+https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
+#EXTINF:-1,TNT SPORTS PREMIUM 5
+http://higherpro.xyz:8080/live/56956478056/270924ztv/248242.m3u8
+#EXTINF:-1,TNT SPORTS PREMIUM 6
+http://higherpro.xyz:8080/live/56956478056/270924ztv/86.m3u8
+#EXTINF:-1,TNT Sports Prem
+http://higherpro.xyz:8080/live/56956478056/270924ztv/87.m3u8
+#EXTINF:-1,TNT SPORTS PREMIUM 8
+http://higherpro.xyz:8080/live/56956478056/270924ztv/88.m3u8
+#EXTINF:-1,TNT Sports
+http://higherpro.xyz:8080/live/56956478056/270924ztv/61276.m3u8
+#EXTINF:-1,FOX SPORTS 3
+http://higherpro.xyz:8080/live/56956478056/270924ztv/537.m3u8
+#EXTINF:-1,ESPN 2
+http://181.78.82.6:46090/play/a00i/index.m3u8
