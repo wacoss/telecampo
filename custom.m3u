@@ -17,30 +17,30 @@ https://unlimited1-cl-isp.dps.live/mega/mega.smil/mega/livestream0/chunks.m3u8
 
 #EXTINF:-1,TVN HP
 http://higherpro.xyz:8080/live/56956478056/270924ztv/35.m3u8
-#EXTINF:-1,TVN jugoso
-http://higherpro.xyz:8080/live/56956478056/270924ztv/37.m3u8
-#EXTINF:-1,TVN HP
-http://higherpro.xyz:8080/live/56956478056/270924ztv/38.m3u8
+##EXTINF:-1,TVN jugoso
+##http://higherpro.xyz:8080/live/56956478056/270924ztv/37.m3u8
+###EXTINF:-1,TVN HP
+##http://higherpro.xyz:8080/live/56956478056/270924ztv/38.m3u8
 #EXTINF:-1,Canal 13
 https://unlimited1-cl-isp.dps.live/t13radio/t13radio.smil/playlist.m3u8
 #EXTINF:-1,Canal 13 Internacional
 https://redirector.dps.live/hls/13intav/playlist.m3u8
-#EXTINF:-1,13 HP
-http://higherpro.xyz:8080/live/56956478056/270924ztv/48.m3u8
-#EXTINF:-1,13 HP
-http://higherpro.xyz:8080/live/56956478056/270924ztv/49.m3u8
-#EXTINF:-1,13 HP
-http://higherpro.xyz:8080/live/56956478056/270924ztv/50.m3u8
-#EXTINF:-1,13 HP
-http://higherpro.xyz:8080/live/56956478056/270924ztv/51.m3u8
-#EXTINF:0,CHV HD
+##EXTINF:-1,13 HP
+##http://higherpro.xyz:8080/live/56956478056/270924ztv/48.m3u8
+###EXTINF:-1,13 HP
+##http://higherpro.xyz:8080/live/56956478056/270924ztv/49.m3u8
+###EXTINF:-1,13 HP
+##http://higherpro.xyz:8080/live/56956478056/270924ztv/50.m3u8
+##EXTINF:-1,13 HP
+##http://higherpro.xyz:8080/live/56956478056/270924ztv/51.m3u8
+#EXTINF:0,CHV
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01o
-#EXTINF:-1 ,Canal 9 
+#EXTINF:-1,Canal 9 
 https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
-#EXTINF:-1 ,TVU 
+#EXTINF:-1,TVU 
 https://pantera1-100gb-cl-movistar.dps.live/tvu/tvu.smil/playlist.m3u8
-#EXTINF:-1 ,La Red
+#EXTINF:-1,La Red
 https://alba-cl-lared-lared.stream.mediatiquestream.com/original.m3u8
 #EXTINF:-1,La Red HP
 http://higherpro.xyz:8080/live/56956478056/270924ztv/53.m3u8
