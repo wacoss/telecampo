@@ -93,6 +93,19 @@ https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
 #EXTINF:-1 ,Pauta TV 
 https://jireh-1-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/pautatv/livestream3/chunks.m3u8
 
+#EXTINF:0,TNT Sports Premium HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a00i
+#EXTINF:-1,TNT SPORTS
+http://higherpro.xyz:8080/live/56956478056/270924ztv/248242.m3u8
+#EXTINF:-1,TNT SPORTS
+http://higherpro.xyz:8080/live/56956478056/270924ztv/86.m3u8
+#EXTINF:-1,TNT Sports
+http://higherpro.xyz:8080/live/56956478056/270924ztv/61276.m3u8
+#EXTINF:-1,TNT Sports Prem
+http://higherpro.xyz:8080/live/56956478056/270924ztv/87.m3u8
+#EXTINF:-1,TNT SPORTS PREMIUM
+http://higherpro.xyz:8080/live/56956478056/270924ztv/88.m3u8
 #EXTINF:0,ESPN 2 HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01v
@@ -110,19 +123,6 @@ http://45.181.122.46:8090/play/a01i
 #EXTINF:0,ESPN 6HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01u
-#EXTINF:0,TNT Sports Premium HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a00i
-#EXTINF:-1,TNT SPORTS PREMIUM 5
-http://higherpro.xyz:8080/live/56956478056/270924ztv/248242.m3u8
-#EXTINF:-1,TNT SPORTS PREMIUM 6
-http://higherpro.xyz:8080/live/56956478056/270924ztv/86.m3u8
-#EXTINF:-1,TNT Sports Prem
-http://higherpro.xyz:8080/live/56956478056/270924ztv/87.m3u8
-#EXTINF:-1,TNT SPORTS PREMIUM 8
-http://higherpro.xyz:8080/live/56956478056/270924ztv/88.m3u8
-#EXTINF:-1,TNT Sports
-http://higherpro.xyz:8080/live/56956478056/270924ztv/61276.m3u8
 #EXTINF:-1,FOX SPORTS 3
 http://higherpro.xyz:8080/live/56956478056/270924ztv/537.m3u8
 #EXTINF:-1,UFC
@@ -147,11 +147,11 @@ http://45.181.122.46:8090/play/a021
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01c
 
+#EXTINF:-1,TNT SERIES HD2
+http://45.181.122.46:8090/play/a01k
 #EXTINF:0,TNT HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01s
-#EXTINF:-1,ATRES SERIES HD2
-http://45.181.122.46:8090/play/a01k
 #EXTINF:0,Golden HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a019
