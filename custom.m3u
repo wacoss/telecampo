@@ -61,7 +61,7 @@ https://v2.tustreaming.cl/tevex/index.m3u8
 #EXTINF:0,Via X
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a00s
-#EXTINF:-1,Via HP
+#EXTINF:-1,Via X HP
 http://higherpro.xyz:8080/live/56956478056/270924ztv/64.m3u8
 
 #EXTINF:-1 ,TeleTrece 
