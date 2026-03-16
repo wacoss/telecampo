@@ -55,6 +55,8 @@ https://v2.tustreaming.cl/tevex/index.m3u8
 #EXTINF:0,Via X
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a00s
+#EXTINF:-1,Via HP
+http://higherpro.xyz:8080/live/56956478056/270924ztv/64.m3u8
 
 #EXTINF:-1 ,TeleTrece 
 https://jireh-3-hls-video-cl-movistar.dps.live/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8
