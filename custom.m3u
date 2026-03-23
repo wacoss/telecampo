@@ -5,8 +5,10 @@ https://jireh-6-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8j
 #EXTINF:-1,TV+ opc2
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
 #EXTINF:-1,Mega
+https://mdstrm.com/live-stream-playlist/5ddfebf14bee0054b9b3fd14.m3u8
+#EXTINF:-1,Mega opc 2
 https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
-#EXTINF:-1 ,Mega opc 2
+#EXTINF:-1 ,Mega opc 3
 https://unlimited1-cl-isp.dps.live/mega/mega.smil/mega/livestream0/chunks.m3u8
 #EXTINF:-1,Mega HP
 http://higherpro.xyz:8080/live/56956478056/270924ztv/42.m3u8
