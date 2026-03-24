@@ -76,6 +76,8 @@ https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd
 https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8
 #EXTINF:-1,CHV Noticias
 https://mdstrm.com/live-stream-playlist/6491ced935a5833c47dd7f41.m3u8
+#EXTINF:-1,CNN Chile
+https://jireh-6-hls-video-cl-movistar.dps.live/hls-video/lvcl5/cnn/cnn.smil/playlist.m3u8
 #EXTINF:-1,DW
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 #EXTINF:-1 ,DW opc2
