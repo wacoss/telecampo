@@ -235,3 +235,13 @@ http://45.181.122.46:8090/play/a01q
 http://45.181.122.46:8090/play/a00t
 #EXTINF:-1,Los Simpons 24/7
 https://live20.bozztv.com/akamaissh101/ssh101/simptestnews/playlist.m3u8
+#EXTINF:-1,Nick Jr. Club 
+https://jmp2.uk/plu-5ddd7cb2cbb9010009b4fe32.m3u8
+#EXTINF:-1,Nickelodeon Clásico 
+https://jmp2.uk/plu-6824cda00101510f9eeaa011.m3u8
+#EXTINF:-1,Nickelodeon iCarly
+https://jmp2.uk/plu-620ff0a01f9e8700076c6f9d.m3u8
+#EXTINF:-1,Nickelodeon Teen
+https://jmp2.uk/plu-5fab09a8749b1a00077d35d2.m3u8
+#EXTINF:-1,Nickelodeon Toons
+https://jmp2.uk/plu-645952687cb4b100084ed52e.m3u8
