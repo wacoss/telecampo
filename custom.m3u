@@ -178,6 +178,8 @@ https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 https://jmp2.uk/plu-67a52cd4ec91870008a62164.m3u8
 #EXTINF:-1,DAZN Combat
 https://jmp2.uk/plu-64df7a9a44fe100009b6ac5a.m3u8
+#EXTINF:-1,Swerve Combat
+https://linear-253.frequency.stream/dist/xumo/253/hls/master/playlist.m3u8
 #EXTINF:-1,Combate Global
 https://jmp2.uk/plu-5e98b0447665f200078caded.m3u8
 #EXTINF:-1,Bein Sports Xtr
@@ -186,8 +188,6 @@ https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 https://bein-esp-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1,Claro Sports 
 https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8 
-#EXTINF:-1,Swerve Combat
-https://linear-253.frequency.stream/dist/xumo/253/hls/master/playlist.m3u8
 #EXTINF:-1,American Ninja Warrior
 https://xumo-drct-ch812-n4996.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1,Garage TV
