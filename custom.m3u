@@ -1,17 +1,17 @@
 ##### funcionando al 15 marzo 2026
 #EXTM3U
-#EXTINF:-1 ,TV+ 
-https://jireh-6-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
+##EXTINF:-1 ,TV+ 
+##https://jireh-6-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
 #EXTINF:-1,TV+ opc2
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
-#EXTINF:-1,Mega
-https://mdstrm.com/live-stream-playlist/5ddfebf14bee0054b9b3fd14.m3u8
+##EXTINF:-1,Mega
+##https://mdstrm.com/live-stream-playlist/5ddfebf14bee0054b9b3fd14.m3u8
 #EXTINF:-1,Mega opc 2
 https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
-#EXTINF:-1 ,Mega opc 3
-https://unlimited1-cl-isp.dps.live/mega/mega.smil/mega/livestream0/chunks.m3u8
-#EXTINF:-1,Mega HP
-http://higherpro.xyz:8080/live/56956478056/270924ztv/42.m3u8
+##EXTINF:-1 ,Mega opc 3
+##https://unlimited1-cl-isp.dps.live/mega/mega.smil/mega/livestream0/chunks.m3u8
+##EXTINF:-1,Mega HP
+##http://higherpro.xyz:8080/live/56956478056/270924ztv/42.m3u8
 
 ####funciona solo en simple tv y no en app m3u iptv
 #####EXTINF:-1 ,TVN 
@@ -27,10 +27,10 @@ http://higherpro.xyz:8080/live/56956478056/270924ztv/35.m3u8
 ##http://higherpro.xyz:8080/live/56956478056/270924ztv/38.m3u8
 #EXTINF:-1,Canal 13
 https://unlimited1-cl-isp.dps.live/t13radio/t13radio.smil/playlist.m3u8
-#EXTINF:-1,Canal 13 HP
-http://higherpro.xyz:8080/live/56956478056/270924ztv/48.m3u8
-#EXTINF:-1,Canal 13 Internacional
-https://redirector.dps.live/hls/13intav/playlist.m3u8
+##EXTINF:-1,Canal 13 HP
+##http://higherpro.xyz:8080/live/56956478056/270924ztv/48.m3u8
+##EXTINF:-1,Canal 13 Internacional
+##https://redirector.dps.live/hls/13intav/playlist.m3u8
 #EXTINF:-1,13 HP
 http://higherpro.xyz:8080/live/56956478056/270924ztv/48.m3u8
 ###EXTINF:-1,13 HP
@@ -44,42 +44,42 @@ http://higherpro.xyz:8080/live/56956478056/270924ztv/48.m3u8
 ##http://45.181.122.46:8090/play/a01o
 #EXTINF:-1,CHV
 https://origin.dpsgo.com/ssai/event/R6cwOFyHQXaW6-kMcfWYKA/master.m3u8
-#EXTINF:-1,CHV HP
-http://higherpro.xyz:8080/live/56956478056/270924ztv/46.m3u8
+##EXTINF:-1,CHV HP
+##http://higherpro.xyz:8080/live/56956478056/270924ztv/46.m3u8
 #EXTINF:-1,Canal 9 
 https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
 #EXTINF:-1,TVU 
 https://pantera1-100gb-cl-movistar.dps.live/tvu/tvu.smil/playlist.m3u8
 #EXTINF:-1,La Red
 https://alba-cl-lared-lared.stream.mediatiquestream.com/original.m3u8
-#EXTINF:-1,La Red HP
-http://higherpro.xyz:8080/live/56956478056/270924ztv/53.m3u8
+##EXTINF:-1,La Red HP
+##http://higherpro.xyz:8080/live/56956478056/270924ztv/53.m3u8
 #EXTINF:-1,UCV
 https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
-#EXTINF:-1 ,UCV Opc2
-https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/ucvtv2/livestream2/chunks.m3u8
+##EXTINF:-1 ,UCV Opc2
+##https://unlimited2-cl-isp.dps.live/ucvtv2/ucvtv2.smil/ucvtv2/livestream2/chunks.m3u8
 #EXTINF:-1,TVR
 https://unlimited1-cl-isp.dps.live/tvr/tvr.smil/playlist.m3u8
 #EXTINF:-1 ,Tevex 
 https://v2.tustreaming.cl/tevex/index.m3u8
-#EXTINF:0,Via X
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a00s
+##EXTINF:0,Via X
+##EXTVLCOPT:network-caching=1000
+##http://45.181.122.46:8090/play/a00s
 #EXTINF:-1,Via X HP
 http://higherpro.xyz:8080/live/56956478056/270924ztv/64.m3u8
 
 #EXTINF:-1 ,TeleTrece 
 https://jireh-3-hls-video-cl-movistar.dps.live/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8
-#EXTINF:-1,Teletrece opc2
-https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8
+##EXTINF:-1,Teletrece opc2
+##https://redirector.rudo.video/hls-video/10b92cafdf3646cbc1e727f3dc76863621a327fd/t13/t13.smil/playlist.m3u8
 #EXTINF:-1 ,24 Horas 
 https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8
 #EXTINF:-1,CHV Noticias
 https://mdstrm.com/live-stream-playlist/6491ced935a5833c47dd7f41.m3u8
 #EXTINF:-1,CNN Chile
 https://jireh-6-hls-video-cl-movistar.dps.live/hls-video/lvcl5/cnn/cnn.smil/playlist.m3u8
-#EXTINF:-1,DW
-https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+##EXTINF:-1,DW
+##https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 #EXTINF:-1 ,DW opc2
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream01/streamPlaylist.m3u8
 #EXTINF:-1,RT Español
@@ -106,8 +106,25 @@ https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8
 #EXTINF:-1,13 Teleseries
 https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
 
+#EXTINF:-1,CBS News
+https://dai.google.com/linear/hls/event/EezGs5EpSjSr-sYjB2qysw/master.m3u8
+#EXTINF:-1,CGTN
+https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
+#EXTINF:-1,NHK
+https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
+#EXTINF:-1,TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 ,Infinita 
+https://mdstrm.com/live-stream-playlist/63a066e54ed536087960b550.m3u8
 #EXTINF:-1 ,Pauta TV 
 https://jireh-1-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/pautatv/livestream3/chunks.m3u8
+#EXTINF:-1 ,Duna 
+https://mdstrm.com/live-stream-playlist/67ed8a8d6db4af9a0188555c.m3u8
+
+
+
+
+
 
 #EXTINF:0,TNT Sports Premium HD
 #EXTVLCOPT:network-caching=1000
