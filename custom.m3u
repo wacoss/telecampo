@@ -158,6 +158,14 @@ http://45.181.122.46:8090/play/a01u
 http://higherpro.xyz:8080/live/56956478056/270924ztv/537.m3u8
 #EXTINF:-1,UFC
 https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
+#EXTINF:-1,Bein Sports Xtr
+https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
+#EXTINF:-1,Bein Sports Xtr ES
+https://bein-esp-xumo.amagi.tv/playlist.m3u8
+#EXTINF:-1,Swerve Combat
+https://linear-253.frequency.stream/dist/xumo/253/hls/master/playlist.m3u8
+#EXTINF:-1,American Ninja Warrior
+https://xumo-drct-ch812-n4996.fast.nbcuni.com/live/master.m3u8
 
 #EXTINF:0,History Channel HD
 #EXTVLCOPT:network-caching=1000
