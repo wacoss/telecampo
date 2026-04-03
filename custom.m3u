@@ -105,6 +105,13 @@ https://redirector.dps.live/hls/13festival/playlist.m3u8
 https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8
 #EXTINF:-1,13 Teleseries
 https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
+#EXTINF:-1,Taste Made
+https://amg00047-tastemade-es16intl-canelatv-9t8xw.amagi.tv/playlist/amg00047-tastemade-es16intl-canelatv/playlist.m3u8
+#EXTINF:-1,Homeful
+https://amg00090-blueantllc-homefull-xumo-rn9cd.amagi.tv/playlist.m3u8
+#EXTINF:-1,Telemundo
+https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
+
 
 #EXTINF:-1,CBS News
 https://dai.google.com/linear/hls/event/EezGs5EpSjSr-sYjB2qysw/master.m3u8
@@ -120,10 +127,8 @@ https://mdstrm.com/live-stream-playlist/63a066e54ed536087960b550.m3u8
 https://jireh-1-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/pautatv/livestream3/chunks.m3u8
 #EXTINF:-1 ,Duna 
 https://mdstrm.com/live-stream-playlist/67ed8a8d6db4af9a0188555c.m3u8
-
-
-
-
+#EXTINF:-1 ,Qwest Music
+https://amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv/playlist/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8
 
 
 #EXTINF:0,TNT Sports Premium HD
@@ -166,6 +171,15 @@ https://bein-esp-xumo.amagi.tv/playlist.m3u8
 https://linear-253.frequency.stream/dist/xumo/253/hls/master/playlist.m3u8
 #EXTINF:-1,American Ninja Warrior
 https://xumo-drct-ch812-n4996.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1,Garage TV
+https://stream1.sersat.com/hls/garagetv.m3u8
+#EXTINF:-1,Motorvision
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=535       
+#EXTINF:-1,Outdoor
+https://amg00718-outdoorchannela-outdoortvnz-samsungnz-lylq4.amagi.tv/playlist/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
+#EXTINF:-1,Red Bull
+https://linear-582.frequency.stream/mt/studio/582/hls/master/playlist.m3u8
+
 
 #EXTINF:0,History Channel HD
 #EXTVLCOPT:network-caching=1000
