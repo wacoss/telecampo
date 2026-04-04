@@ -123,6 +123,8 @@ https://xumo-drct-ch836-57aiq.fast.nbcuni.com/live/master.m3u8
 https://jmp2.uk/plu-5de91b7ea86ee60009d89e75.m3u8
 #EXTINF:-1,Wipe Out
 https://jmp2.uk/plu-5ed6828192e8b3000743ef61.m3u8
+#EXTINF:-1,American Ninja Warrior
+https://xumo-drct-ch812-n4996.fast.nbcuni.com/live/master.m3u8
 
 #EXTINF:-1,CBS News
 https://dai.google.com/linear/hls/event/EezGs5EpSjSr-sYjB2qysw/master.m3u8
@@ -188,8 +190,6 @@ https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
 https://bein-esp-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1,Claro Sports 
 https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8 
-#EXTINF:-1,American Ninja Warrior
-https://xumo-drct-ch812-n4996.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1,Garage TV
 https://stream1.sersat.com/hls/garagetv.m3u8
 #EXTINF:-1,Motorvision
