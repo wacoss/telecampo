@@ -109,6 +109,12 @@ https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
 https://amg00047-tastemade-es16intl-canelatv-9t8xw.amagi.tv/playlist/amg00047-tastemade-es16intl-canelatv/playlist.m3u8
 #EXTINF:-1,Dulce Gourmet
 https://jmp2.uk/plu-6894fc3f66f164e402f4fd14.m3u8
+#EXTINF:0,El Gourmet HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a021
+#EXTINF:0,Food Network HD
+#EXTVLCOPT:network-caching=1000
+http://45.181.122.46:8090/play/a01c
 #EXTINF:-1,Homeful
 https://amg00090-blueantllc-homefull-xumo-rn9cd.amagi.tv/playlist.m3u8
 #EXTINF:-1,Tastemade Hogar
@@ -142,7 +148,8 @@ https://jireh-1-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8j
 https://mdstrm.com/live-stream-playlist/67ed8a8d6db4af9a0188555c.m3u8
 #EXTINF:-1 ,Qwest Music
 https://amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv/playlist/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8
-
+#EXTINF:-1 ,Global Fashion
+https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
 
 #EXTINF:0,TNT Sports Premium HD
 #EXTVLCOPT:network-caching=1000
@@ -212,13 +219,6 @@ http://45.181.122.46:8090/play/a014
 #EXTINF:0,Animal Planet HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a02f
-#EXTINF:0,El Gourmet HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a021
-#EXTINF:0,Food Network HD
-#EXTVLCOPT:network-caching=1000
-http://45.181.122.46:8090/play/a01c
-
 #EXTINF:-1,TNT SERIES HD2
 http://45.181.122.46:8090/play/a01k
 #EXTINF:0,TNT HD
