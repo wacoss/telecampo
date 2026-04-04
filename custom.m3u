@@ -1,4 +1,4 @@
-##### funcionando al 15 marzo 2026
+##### funcionando al 4 Abril 2026
 #EXTM3U
 ##EXTINF:-1 ,TV+ 
 ##https://jireh-6-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
@@ -12,13 +12,11 @@ https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
 ##https://unlimited1-cl-isp.dps.live/mega/mega.smil/mega/livestream0/chunks.m3u8
 ##EXTINF:-1,Mega HP
 ##http://higherpro.xyz:8080/live/56956478056/270924ztv/42.m3u8
-
 ####funciona solo en simple tv y no en app m3u iptv
 #####EXTINF:-1 ,TVN 
 ####https://m3u-dinamica.vercel.app/api
 #####EXTINF:-1 ,TV Chile 
 ####https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8
-
 #EXTINF:-1,TVN HP
 http://higherpro.xyz:8080/live/56956478056/270924ztv/35.m3u8
 ##EXTINF:-1,TVN jugoso
@@ -121,6 +119,8 @@ https://amg00090-blueantllc-homefull-xumo-rn9cd.amagi.tv/playlist.m3u8
 https://jmp2.uk/plu-68b887c2e77777498226a0de.m3u8
 #EXTINF:-1,El Encantador de Perros
 https://jmp2.uk/plu-61099f2b40d0640007fc5aa2.m3u8
+
+
 #EXTINF:-1,Telemundo
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8
 #EXTINF:-1,Caso Cerrado
@@ -131,7 +131,8 @@ https://jmp2.uk/plu-5de91b7ea86ee60009d89e75.m3u8
 https://jmp2.uk/plu-5ed6828192e8b3000743ef61.m3u8
 #EXTINF:-1,American Ninja Warrior
 https://xumo-drct-ch812-n4996.fast.nbcuni.com/live/master.m3u8
-
+#EXTINF:-1 ,Global Fashion
+https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
 #EXTINF:-1,CBS News
 https://dai.google.com/linear/hls/event/EezGs5EpSjSr-sYjB2qysw/master.m3u8
 #EXTINF:-1,CGTN
@@ -148,8 +149,7 @@ https://jireh-1-hls-video-cl-movistar.dps.live/hls-video/ey6283je82983je9823je8j
 https://mdstrm.com/live-stream-playlist/67ed8a8d6db4af9a0188555c.m3u8
 #EXTINF:-1 ,Qwest Music
 https://amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv/playlist/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8
-#EXTINF:-1 ,Global Fashion
-https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
+
 
 #EXTINF:0,TNT Sports Premium HD
 #EXTVLCOPT:network-caching=1000
