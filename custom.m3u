@@ -170,12 +170,20 @@ http://181.78.82.6:46090/play/a00i/index.m3u8
 #EXTINF:0,ESPN 3 HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01t
+
+#EXTINF:-1,ESPN 3
+http://181.78.82.6:46090/play/a00v/index.m3u8
+
 #EXTINF:0,ESPN Premium HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a015
 #EXTINF:0,ESPN 5HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01i
+
+#EXTINF:-1,ESPN 6
+http://181.78.82.6:46090/play/a00w/index.m3u8
+
 #EXTINF:0,ESPN 6HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01u
