@@ -162,6 +162,8 @@ http://higherpro.xyz:8080/live/56956478056/270924ztv/86.m3u8
 http://higherpro.xyz:8080/live/56956478056/270924ztv/87.m3u8
 #EXTINF:-1,TNT SPORTS PREMIUM
 http://higherpro.xyz:8080/live/56956478056/270924ztv/88.m3u8
+#EXTINF:-1,TNT SPORTS PREM ARG
+http://46.225.94.157/hls/tnt/index.m3u8
 #EXTINF:0,ESPN 2 HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01v
@@ -173,22 +175,28 @@ http://45.181.122.46:8090/play/a01t
 
 #EXTINF:-1,ESPN 3
 http://181.78.82.6:46090/play/a00v/index.m3u8
-
 #EXTINF:0,ESPN Premium HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a015
 #EXTINF:0,ESPN 5HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01i
-
 #EXTINF:-1,ESPN 6
 http://181.78.82.6:46090/play/a00w/index.m3u8
-
 #EXTINF:0,ESPN 6HD
 #EXTVLCOPT:network-caching=1000
 http://45.181.122.46:8090/play/a01u
+#EXTINF:-1,ESPN 7
+http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-106.playlist.m3u8
+#EXTINF:-1,FOX SPORTS 1
+http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-91.playlist.m3u8
+#EXTINF:-1,FOX SPORTS 2
+http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-93.playlist.m3u8
 #EXTINF:-1,FOX SPORTS 3
+http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-92.playlist.m3u8
+#EXTINF:-1,FOX SPORTS 3 opc 2
 http://higherpro.xyz:8080/live/56956478056/270924ztv/537.m3u8
+
 #EXTINF:-1,UFC
 https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 #EXTINF:-1,UFC opc 2
