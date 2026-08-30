@@ -31,7 +31,7 @@
             'El Doce': 'canales/eldoce',   
             'N+': 'canales/nmas',                      
             'Canal 6': 'canales/canal6',       
-            'Telefe Notic': 'canales/telefenoticias',   
+            //'Telefe Notic': 'canales/telefenoticias',   
             'Telesur': 'canales/telesur',   
             'TN': 'canales/tn',   
             };
